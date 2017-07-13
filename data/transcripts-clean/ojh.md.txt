@@ -1,0 +1,64 @@
+Yes.
+Experimental psychopathology, yeah. So, within clinical psychology, yeah.
+No.
+Basically, just from my studies. I did cognitive psychology as well. So, there I learned about the Stroop task.
+Yeah, yeah, yeah. So, I have read papers about it and also read papers about the effective Stroop task, which is used in Clinical Psychology. Yeah, so, I am familiar with the task.
+R and SPSS.
+My peers being like people within this field of psychology as well or general?
+Yeah, in my field, ok. Then, I think an 8.
+I think a 4. I think, yeah, it was quite difficult.
+I spread the data fabrication, but in the end I just started over yesterday. I already tried it like a few times last week, but then I didn't come with a good solution yet. So ...
+I think, 3 days. Yeah.
+3 to 4 hours. 
+A 5.
+Yeah, I thought about it before and how I could best do it, yeah.
+Yeah, that was just like time when you are on the bycycle and thinking about it. So, I don't know ...  15 minutes or something.
+A bit.
+Yeah, it was also a paper from your group where - I just scanned it but people who like just came up with random numbers that that was quite easily detected. And people who use multivariate data that was more difficult. Yeah, something like that. But I just scanned the article, but yeah ...
+No.
+No.
+Yes. So, I want to simulate data. I didn't want to like just fill in random numbers. I want to simulate it but I wasn't sure how you could ensure that the data of the congruent - to me, it made sense that the data from the congruent condition was correlated with the incongruent data. So, I wasn't really sure how you could fabricate - simulate data with a certain correlation. So, I thought about how you could do that.
+Yeah. I also thought about if you would have other data from the Stroop task, I thought you might infer like the covariation matrix from and then simulate the data based on that, but I wouldn't know how to do that. And I also wouldn't know - wouldn't have a data set of the Stroop task. But I thought you might be able to infer it from an actual, existing data set, yeah.
+Does what influence my approach - the?
+Yeah, eventually not. Because I tried - no, no, I think not, no.
+No, not really, no.
+Yeah. So, I thought if - because my - the means from the data from the congruent and the incongruent data first had a correlation of 0. Then I tried it differently and then they had a correlation of .98, which both seem to reflect very bad data fabrication. And also at a certain point, I had a Cohen's d of like . - aeh, 1.8 or something. So, I thought these were - that is all highly unlikely. And that would give away quite easily that the data was fabricated.
+Yeah, what does the data - that is a good question. Yeah, I think if the data isn't as perfect as hypothetically you would assume it would be like. If, yeah, if there would be some outliers or anything.
+Yeah, I tried to.
+So, I tried to come up with a way that the data was correlated by first simulating data for the congruent condition and then basing - using that data to simulate the other data. And when I found a really big effect, I tried to - I just made the differences between the conditions smaller to decrease the effect.
+No, just made me realize I haven't.
+Yes, so just within-subjects, the data is correlated.
+Excuse me. Can you repeat the question?
+The effect size, correlation. I just looked at the data to see whether it looked alright. Yeah, but my biggest conclusion was that it is really difficult to fabricate data.
+So, yeah, I thought based on - that it is a quite robust effect so I would figure a medium to large effect size would be alright.
+No, for both I just wrote a for-loop to simulate data.
+Outliers. Yeah, I think - I think it is better to simulate the data from existing data to let it go undetected.
+No.
+Yeah. In R, I made a matrix of - with 25 rows and 30 columns to simulate 30 observations per participant. And then wrote a for-loop which would fill up the matrix with the function rnorm. So, 750 data points and then took the mean for every row.
+I tried to look into the literature but it wasn't really clear. So eventually, it was just taking a guess, I think, yeah.
+Same, the same method, yeah. But this was only for the congruent data. And then for the incongruent data, I also did - I basically did the same but then used the means from the congruent data and added a random amount to it with rnorm again - if that makes sense.
+Yeah, yeah, I did it the same way, yeah. But I had some - yeah, that is what I did, yeah.
+Yeah, yeah, because, so, first I got like a correlation of 0 and then a correlation of 1 and so I want a correlation of somewhere in between. So, now, I first added numbers to the means of the congruent data but then subtracted again and then eventually I got a normal correlation.
+Yeah, yeah, yeah, I tried to look it up but I couldn't find it.
+Yeah, just at a certain point I thought it is enough. Yeah, I think if you really - yeah, and I realized by doing this process that it is really difficult to make actually good fabricated data. So, I thought if I really, really, really want to make this data look good, then it would take me probably a week full time to actually do it. So, then, I realized that - that, yeah, I would have to read a lot more on it and I wouldn't be able to do that.
+Yeah, I did look at the normal distribution, I think, yeah.
+Yeah, that probably the data - I could imagine this data looking like a normal - normally distributed. So, and obviously it was as I created my data using rnorm, yeah.
+In what way? Or any way?
+No, I - no, all I have done is just looking at the actual numbers, not really, no.
+I would guess 20 or something.
+Yeah, so an R script.
+Excuse me.
+Yeah, rnorm would [?], ja.
+Yeah, unfortunately not.
+No, not really.
+Yeah.
+Because there are so many aspects of data that can be detected and then, yeah, I participated because I really liked the idea of the study and because I thought it would be a challenge to fabricate the data, but I didn't expect it to be this much of a challenge. Because I am - I only thought probably of the simple things that you can easily detect and probably there will be so many other things you will look at and you will easily - might easily find out that the data is fabricated.
+No ...
+Yeah, no, I don't think so. I think you guys are smart enough to do that, yeah.
+No. Yeah, no.
+Because I think I don't know enough about data in this way to, yeah, to keep the data undetected. And I think as you are all methodologists, you will [?] beat me.
+Yeah, because I was really interested in the topic. And because, at first, I didn't realize how difficult it would be. I thought it would be challenging but I didn't realize it would be so difficult, yeah.
+I did. Not in detail, though.
+No, no.
+No.
+No, I don't think so.

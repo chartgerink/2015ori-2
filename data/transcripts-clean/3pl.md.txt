@@ -1,0 +1,47 @@
+Yes. 
+Social psychology.
+No.
+So, I have been taught on the Stroop task in my Bachelor years. Just during the regular program. And I have read some articles on it. But I have never conducted a study in any form. I have never seen data on the Stroop task.
+Typically R. Sometimes for my students SPSS.
+8.
+That is more difficult. 5.
+One day.
+That is a good question. The actual data fabrication took me about an hour. But then I got so interested that I spent another hour on seeing if there were ways that I could optimize it. So, I spent two hours on this(?).
+4.
+What kind of preparation? I don't think so.
+No. I did that after the data fabrication, though.
+I didn't find much. That was the problem. But I mostly checked some stuff that I already knew existed. So, stuff on what kind of variation was likely, what the chances were of finding a significant effect in such a small sample. That kind of stuff. But I didn't find any specific article on data fabrication or how to detect it.
+Nope. 
+Yeah, I thought about multiple ways in which you could fabricate the data. So, whether to use like an existing data set or start from scratch. I also thought about what would be - what would make a dataset not look very clean. What else? I think that's it.
+No.
+If the data looks to clean. So, for example, no outliers. If the differences are extremely big. Let me see. If - for example the effect size or means differ a lot from other studies in that field. So, for example, if the means would be way higher than in real data. I think that's it.
+Yeah, I think so. For example, the standard deviation should be in line with the number of trials you have. So, knowing that the standard deviation gets typically smaller if you have more trials per participant. That is definitely something I would think about. I think that is the most relevant one, yeah.
+I think the opposite. So, an outlier. Means that look similar to other studies. An effect size that is in line with other studies. Not necessarily the same but in line with other studies. Yeah, I thought about missing values but that is in this case not really relevant. 
+Yes.
+So, for example, the outliers that - So, I used an existing data set as the basis of my fabricated data. And the outliers in that study I left in there. Or at least I tweaked them but they are still in there. Also in terms of standard deviations. Some were really low and some were really high and I kept some of them in there. And also because the standard deviations of the congruent trials were based on 20 trials instead of the 30 that we had to do, I made all of them a bit smaller. And the one of the incongruent trials were based on 40 trials so I made those all a bit higher for the 30 trials.
+I did check the correlation between the standard deviation and the mean for both - the incongruent and congruent parts. And I tried to keep them similar to the existing dataset that I had. So, for example I saw that the correlation was lower between the standard deviation of the incongruent trials and the mean of the incongruent trials than for the congruent dataset. So, I tried to keep it that way.
+Yeah, I think this is quite similar. So, having outliers in there. Keeping that correlation similar. Not having way smaller standard deviations for the congruent trial than for the incongruent trial or for data points that were outliers. Keeping the means sort of realistic, I guess, or at least related to the existing dataset. Yeah, that's it.
+No, I thought a lot about how they are gonna detect it. But since they only want means and standard deviations I couldn't come up with many ways they could detect it. So I had difficulties with that. I thought about how - about whether I should take into account that the p-value maybe should not be too - or basically the t-test should not be too high or the p-value too low. But since almost all of the random samples I took from the existing dataset that I had were super significant I didn't see the point in doing that. So, no. In hindsight no other things I would have done, no.
+Nope.
+So, I used an existing dataset from the many labs open data. So, I took that dataset and then I drew a random sample of 25 participants from that data. I made sure not to take outliers out which is what they typically do when cleaning the data. I also didn't check for missing values. So, I just made the means based on that random sample. Then took those means and added some error.
+I added the error by changing the means but not too much. Because I didn't want to destroy the effect, basically. I took the means that I had and then just changed them a little bit so that the mean at the end would still be quite the same. And I also did this together with the standard deviations. So, just to make sure that those correlations would be quite similar. If I increased one, then I also tried to increase the other. Although not necessarily by exactly the same number or relative number, no.
+No, I did it by myself because I didn't want any structural changes that could be detected.
+Yeah, similar to the means. So, I also took the same participants - also a random set from the many labs dataset. And these are the same participants as for the means. And I also put those in a datafile and tweaked them together with the means. Also, just myself.
+Yeah. I checked in between a few times if the test statistic changed too much or not. And I checked the correlations between means and standard deviations. I checked if the means differed a lot in the end from the random samples I took. And then changed based on that a bit.
+Yeah, in the beginning I changed the - so first, when I changed the means - of course when I changed the means of the congruent to one (?) and made them all a bit faster - is that true? yeah congruent a bit faster - so I noticed quite quickly that that results in of course in an average mean that is way smaller. So then I changed it against a bit up - some of them. So, some of them more in the other direction to make sure that the overall mean would in the end be similar to the dataset that I used. And I did the same for the standard deviations. So, I didn't want it to be too odd. I made the standard deviations of the congruent trials smaller. So, I also checked if that overall was the case. And if it became way smaller or not (?).
+Well, actually, I thought it looked weird with some of the outliers. But I thought that was a good sign, actually. So, I had, for example, a standard deviation that was super low compared to the others but I kept it in there.
+Yes. So what I noticed was that some of the means or standard deviations were quite similar in their exact number. And I tried to keep it that way in the new dataset as well.
+4. 
+R.
+No.
+Yes.
+Well, all of it is based on real data. But in the end, I think none of the numbers are exactly the same as in the dataset that I used. 
+No, I don't think so. No.
+No.
+I thought of it more as a challenge in that way which sounds horrible maybe. No, it is nice because for me it felt like a test of my own knowledge in stats, actually. I couldn't come up with many ways they could detect it. So, I was also very enthusiastic about helping and then in the end finding out how they did it. Anything else? No, that's it.
+No, I think the fact that I used data that is openly available could make it easier to detect it. If that is used as a basis to test against then I can see how my data could be detected. But because I used existing data and an existing data set my data does look real in that sense. So, yes and no. Yes in the sense that if they use it as a basis then it will be easier, I think. But if I would send it to a journal, I think no becasue it looks real.
+I think it is a very interesting idea. [REDACTED]. So, in that sense, I think it is also really good if they have a way to test this. And to test if data is real or not. Then, that would be great. Also, the challenge in it was nice, I think. I kind of liked doing it. Sounds horrible but(?) I kind of liked it. But mostly because of hoping that there is a way that they can detect this stuff.
+Yes. I discussed it because I know that others that I know are also participating in this. But we also made clear to each other that we didn't want to say what we are using. But we were talking about it like what kind of methods would they use to detect it. None of us could come up with a good way it could be detected. So, we didn't share much information in that sense.
+No.
+No.
+I felt challanged in the data fabrication and on the one hand I hoped that I would not be detected but on the other hand I was also afraid that I would be too good at this. So I am not sure what is the compliment - being good at this or being bad at this.

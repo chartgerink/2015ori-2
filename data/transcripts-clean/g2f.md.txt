@@ -1,0 +1,67 @@
+Ja. We call ourselves PhD candidates, but yes.
+Cognitive science, I would say. [REDACTED]
+I think, in my Bachelor, we did a very basic thing. But yes, I am familiar with the Stroop task.
+Yes, well, it was sort of an in-class experiment where we would record our times and so on.
+Yes, in a limited way.
+Yes.
+So once a week when I am analyzing data, but then (?) in the data analysis phase mostly R. Sometimes if I want to get a quick answer from something I use SPSS. I would say it is 70% R, 20% Matlab, and 10% SPSS.
+I would say 8. I should maybe add that I about half a year ago started applying Bayesian statistics, so I mainly (?) work with STAN, [?] R implementations, yeah.
+I would say 7. I did my best, I think, but I think that detection methods are - they take into consideration a lot more than I do.
+I think, it was more a spread over about 3 days.
+This is hard to say, but including everything maybe 6 hours.
+But this is a rough guess. I didn't really clock the time. So including also getting a bit into theory and a bit for finding the right functions to do what I wanted to do. Maybe - yeah, I would say around 6, but it is - yeah.
+6.
+Well, I mean fabricating the data takes about 20 seconds. So, in this - running the code and then pasting it into the Excel file. Maybe a few more times, because it is somewhat randomized, so I am - I was choosing something that was more valuable or looked better to me. So, the actual fabrication then took maybe a minute. Everything else was preparation or writing the code. [?]
+Yes. So, I thought about it, thought about how do - well, how to make it look as natural as possible. I looked up some papers, reviews on the Stroop task to sort of see what the means and the standard deviations normally look like. And then I looked for a data set that was already available. So, I could describe the entire process if you like or?
+Right. I think, I just started by sampling from normal distributions and I think I mostly - well, ok, I think the first thing I did was just to look up a review just to sort of see in which range the data usually is. From the literature, I did not get a lot of information, but I also didn't search too much. But I started coding pretty much right away just to sort of get the numbers, do some for-loops that I would get - you know, that would get four columns with 25 rows just to get the structure and in parallel I was looking at - well, searching for data sets and then so on.
+I think it was pretty much in parallel.
+No.
+No.
+I did. So, one idea was to actually take a real data set, but, yeah, I didn't do that, because I didn't think it would actually be helpful. I started by basically just drawing 25 times 4 samples from normal distributions. But then I well started using different kinds of distributions. So, other approaches - other approaches of course would also just basically get the data. Just test myself on that amount of trials, but that again would not really be fabrication. But, yeah, that's pretty much it.
+Because I thought it might be interesting for you to maybe have like a potential false positive in their, but then I thought, ok, you can probably find your own real data sets. So, no, I just, yeah ...
+Right. I thought my chances would be highest. But I was thinking more in terms of what would be more helpful to the project.
+I think my chances would be highest with - so, my chances to be undetected would be highest with real data.
+I think if I had more time - so yeah, I basically started a few days ago, so I set some amount of time to do this. I think if I had more time, I would - so from my perspective now, I would probably look up - you know, how fake data is normally detected, what sort of the current methods are, yeah, so with more time I might be able to apply more methods. So, I have the feeling I did sort of the time that I could spend for this, but I do think that I could do more, anyway.
+Right. I don't know too much about this. I can only speculate on how you would detect fake data. So, one of course would be I am guessing to compare with real data what the range is, what normal standard deviations are, what real data normally looks like just in terms of absolute values, but that is a very easy step. I mean, if you would get a huge effect size that is nowhere found in the literature that would be weird. The distribution that you could fit to the data might not correspond to what you normally expect for this kind of data. So, for instance, reaction time data is not normally distributed usually. So, I would have expected more something like a inverse Gaussian. So, basically if I would [?] kind of reaction time data and it would be normally distributed that would be weird. Then, if I would be drawing from, well, sensible (?) distributions, standard deviations and means might be very uncorrelated. I would expect, for instance, that with higher reaction times you would get higher standard deviations. Yeah, that is pretty much it, I think.
+I am not sure. I am not sure if I can point to specific things other than what I already described.
+To some degree, yes. So, as far as I could at this point.
+So should I just - I mean I could describe the whole process if that would be a good point in time to do, because that is what the process is taking those things into account.
+Right.
+Right.
+Well, it is actually fairly simple, I would say, what I did. But I mean I looked at parameters of distributions in existing data sets. Then, I recreated these distributions and sampled from them. So, I had distributions for the means and for common variance. And then I was making two joint distributions. And essentially sampling from those.
+No.
+Sorry, could you repeat that?
+It was based on what I found in the literature.
+Yes. Maybe I could have looked at more different data sets. So, I am now thinking that I could have specifically produced outliers, which - but, so basically I assumed that if I would sample from distributions that are based on data sets that that would be realistic enough.
+No.
+So, I looked at a data set that I found at the Open Science Framework where they were looking at various universities in the US and basically did this - the basic Stroop task and we are looking at fluctuations over the semester within students. I basically made a - so, I looked at all the means and the standard deviations they had, so they had about 3000 people, so, well, to go a step back, so first, I just used normal distributions and sampled from those for means and standard deviations, but then I saw that, well, this is not really how they would be distributed. So, I took this data set and I basically fitted distributions. So, there is some tools in Matlab to basically look at the data and find which distributions fit best. Then I took the distribution that fitted best, took those parameters, created random data from - with these parameters - from the distribution with these parameters, and then took 25 times 4 samples from that.
+Wait, so before I did that - so I had these two distributions for the means, so for congruent and incongruent, and one distribution for the variance, because I expected that to be similar and in this dataset I also found this. One description for the standard deviations. And then I created two joint distributions with, yeah for the mean and standard deviation, yeah and then took 25 samples from that joint distribution.
+Yeah, so, that should explain that as well.
+Yes. So, I run it a couple of times until the standard deviation of the variance within - no, between participants was sort of close to what I found in the literature. But because there is also fluctuations between studies, I didn't - I wasn't too worried about the numbers actually being too close, because I also thought that, well, in this experiment, there could be all kinds other factors that would influence the actual numbers. So, I was more concerned with how these numbers would make a distribution, how I could fit a distribution to those numbers. Does that answer your question?
+Maybe you can repeat it.
+Right. sorry, yeah. So, I just basically run the script a few times and I made sure that they (?) chose one outcome that was - where there was a significant different and where the numbers were somewhat close - so that was, well, mainly just intuition-based. But I feel that I could have used any of those outcomes.
+I mainly trusted the process.
+Yeah, it was a gut feeling. So, I was looking at sort of the means of the means and whether that made sense. Usually, so what I found was for responses, a response time of 507 (?) milliseconds approximately and it was sort of in this range. So, I mean by chance of course I could have gotten a result that was very extreme. So, I just wanted to make sure that that did not happen, but yeah it was a gut feeling mainly, yeah. So, I looked at the numbers in the literature that were reported, but that was about it.
+Well, I plotted histograms, but with 25 data points, well, it looked ok. Yeah, so in retrospect I could have produced 1 or 2 extreme outliers in there, but I felt it was not really necessary.
+Genuine?
+Well, again, I just trusted the process.
+So, I looked at some scatterplots. So the relationships did not seem very strong, but I did not look too closely into that.
+Once I was satisfied with code, I think it took me about 4 runs.
+Matlab.
+Yes. In the end, mostly the random function. I do now realize that I forgot one thing which I actually wanted to do, but I run out of time and was not really thinking about that anymore. Which is I wanted to get a more random seed, but, yeah, I did not. So, it was basically the default Matlab process.
+Yes. So, it was based on this large data set.
+More inspired. So they are all randomized.
+I don't think so, no. [?] Let me just have a look at my notes in case (?) I forgot something. I can give you the URL of the data set that I used if that helps. 
+So that is pretty short. So, I can just ... osf.io/ct89g. Somewhere there is a zip file in there that contains - their (?) thing is called final Stroop data. So, I can also send this to you if you want to.
+Ok. I could describe the distributions a bit more. So, what I used was - what I found the best fit was something that was also new to me: generalized extreme values - this type of distribution. Yeah, and inversed-Gaussian also fitted fairly well for both the means and the standard deviation data, but the GEV seems to have - fitted even better, so I [?] used that.
+Yeah, that's pretty much it.
+I was somewhat surprised of how long it took me to figure these - all the details out. So, I kind of knew that I would have to use a joint distribution, but in this context I have not made one before. So, that took some time.
+Ja, so I mean, of course, I could have just gone with the most simple way to do it - just draw, you know, from some random distributions, normal or otherwise. But I thought it would be best if I take the parameters for the distribution from the data set.
+I was surprised that I was unable to find any data sets by googling, but the Open Science Framework was very useful.
+Well, if I had to do a binary guess, I would assume that you can detect it. I would assume that I am slightly less detectable than average, but I don't know what other people are doing, of course. But considering that I didn't extensively look at, yeah, how fake data is detected usually, I am sure that I overlooked a lot of things that would be obvious.
+No, no.
+I think this is an extremely good initiative. Data fraud in science is really bad considering the importance of the whole [?]. The monetary aspect was very appealing as well. I did end up spending more time than I thought I would, but I think it is quite worth it. So, yeah, it is mostly wanting to support the study and also earning some [?] easy money. And also the exercise itself is a good practice, I think, to think about distributions and how data works, roughly speaking, yeah.
+With my colleagues just briefly. I mean, we mentioned it, but there was not a lot of discussion, no. [REDACTED].
+I think with the joint distribution - I am not even sure - it was sort of in my mind, but when I was briefly mentioning it, I think one of my colleagues was also mentioning that, and that made it more clear for me that I definitely have to use that. I am not sure if this is very clear, but I would say that mostly I did this without help.
+No, I don't think so.
+If I think about it, I think - no, I don't think so, no.

@@ -1,0 +1,62 @@
+No.
+Not that much but I have to think. I think it was 2 years ago, yeah. I can't really remember. Yeah, I think, 2015, I think, ja.
+Yeah, now clinical psychology. But I also have a background in experimental psychopathology.
+Yes.
+Well, we conducted it a bit differently than the one here because we usually had a whole card of words. It was an emotion Stroop, so not a standard Stroop. And people had to name the colors of the words, but we only recorded the total amount of time of the whole card, not just the separate words so that was different here. But I think, during my PhD, I conducted - yeah, I think almost in every experiment so that would be like 5 or 6 experiments we also included a Stroop task but always like I just explained.
+Ja. But not like this. Not for every separate word, but yeah.
+Only SPSS. Yeah, and AMOS but that is also, I think, from SPSS.
+Well, that depends on the analysis. I know some analyses I am very good at. But I was never an excellent student when it came to statistics. But - yeah, I don't know, then around the middle - 5.
+2, then. I think you will easily notice.
+Several days.
+2 or 3, I think, yeah.
+Yeah, mostly 2. But then a little - maybe a little - final details on the third day.
+Puh. It was quite a lot of hours, actually. I thought I was going to do it within one hour, but I think it took me 4.
+Oh, 7. I really tried.
+Yeah, I - because I was used to the total amount of time with the cards I didn't really know what normal means or standard deviations were for separate words. So, I read a few papers and looked at the means and standard deviations there to get a feel for how - and then I also looked at some of the data I already had - and, yeah, tried to find out if I could use some of it and then change some. So, yeah, I just researched before I started.
+Oh, that was most of the time. So, that was 3 hours of the 4, I think, yeah.
+No, I didn't.
+No, I didn't think of that, actually. But that would have been a good idea.
+Well, the only thing I know is of course the Stapel fraud. And then - what I could remember is that, well, they did a lot of research after that also with experiments in social psychology were - well, kind of, I don't how to say it but ... - suspicuous, I think. And I remember from reading that paper that a lot of results were just below the p .05 level. So that's what I tried to avoid, that is was really significant. But that's the only thing, I actually know.
+I only could think of one, actually, just to do something - because it was only 25 participants so I kind of did it by hand.
+Well, yeah, because then I could find out what the mean was. So, what I did was that I kind of copied some of my data - it was not a Stroop because those data were - the means were incorrect because of the whole cards. But then I kind of adjusted them by hand to fit the normal means and standard deviations I found in the literature.
+About the timing?
+No.
+Well, first, the p-value I just talked about. And then maybe also when the data is too clean. When, for example - now, I tried to put some weird - also some weird means in between so that it would look more real because some - especially if you work with patients, for example, some are just really slow or make a lot of errors and then I tried also to put some weird data in it to make it look more real.
+Yeah, those weird data in between the expected patterns.
+Yes.
+Yeah, I answered that.
+No. I wouldn't know which ones.
+Oh, no.
+Ja, I already answered that. With the p-value and put some weird stuff in it.
+Yeah, well, like I said, I am not an expert. So, that is the problem. Some people would approach this, I think, more smart than me. I don't know. I just saw that a lot of data were around 1 second. So, that's kind of what I tried to do - between, well, 1 and 2 seconds. And then, the standard deviations were also between 100 and 300. So, I kind of varied between that.
+Yeah, I think, I didn't think of that but to look at literature how to detect fabricated data. I didn't think of that but that would have been smart.
+No.
+Yeah. That was, I copied some data from another reaction time experiment, just random - I just copied 50 trials. And then I compared them with the Stroop means I found in the literature and then I adjusted them by hand.
+Just - I just picked a random data set that I knew had some reaction times. And then I saw those reaction times were always a bit around 500 milliseconds so that was a bit too slow. So, I just added 500 to the means, yeah.
+Yeah, I just added 500 and then switched around a few means.
+Yeah, and also put some weird data in it. So, some really slow ones, also.
+Then, of course, it was not statistically significant. So, then I changed around a few in each condition until it was significant. But then I took it a step further because then it was just below, yeah, 5 %. So, I kind of changed it a bit more. And then I just made some slower and some faster by hand in the congruent and incongruent condition until it was - I think it was p .017 or something. I don't know the exact value.
+Yeah, that was exactly the same procedure. So, I copied the standard deviations from a task I already had but that was not the Stroop. And then I saw that these were really not what I saw in the literature. So, I just adjusted them again by hand.
+No, each.
+Yeah. Because, well, sometimes it was just below 5 %. So, then I tried again until it was correct.
+Yeah, I looked at the p-value and the means and the standard deviations until I thought, well, this looks like a real data set with my lay knowledge.
+I wouldn't know how to. So, no.
+No, again. I wouldn't know how to.
+Pff, I don't know. I just switched around a lot of things. I don't know.
+Yeah, I don't know. It's 50 values - I don't - 200.
+Yeah, I kind of kept changing it. Because then I read a different paper and then I saw, oh, well, those standard deviations are much higher than theirs, so maybe mine are too low. So, I have to - yeah ...
+I think, two times.
+No.
+No. That would also have been a good idea, actually. I didn't do that.
+[?] in the end, no.
+Yeah, that was just to have kind of a start to, yeah - so I wouldn't have to really input everything by hand. But it was just like I said 50 reactions times, not even Stroop data, and not even - it was only one condition, yeah.
+Yeah, only that. Of course, the incongruent ones were slower. But that is, of course, related to the significance. But also that it was not the case in every participant because, of course, not everyone reacts that way.
+Yes.
+Yeah, because I felt that I could have done a better job if I had more statistical knowledge. So, now, I feel that I just did something and maybe it is very stupid. I don't know. So, I was a bit insecure but it was also kind of uncomfortable because you were doing something that was not right. But it is an experiment so when I named the data files like 'data fabrication experiment' it felt better already but it still was a bit weird. So, it was difficult and weird.
+I don't think so. Because - like I said - I just did something and then probably you will see that - I don't know how - like I said I am not an expert - but probably you will see that the combinations, for example, of means and standard deviations is just weird. Or that it's too random. Maybe. I am not sure how you are going to detect it but, yeah - because I just did something very random and I - probably you will notice but I couldn't find another way to do this. So, yeah.
+Yeah, maybe, you will notice that the combinations of the means and standard deviations are just too random and that it doesn't really make sense. I am not sure.
+[REDACTED]. And also because I am really worried about this part of science. I don't think a lot of people really fabricate all the data but I do think that - because of the publication pressure - that a lot of people might feel that ok, it's not significant, maybe if I just change this participant, then my data set will be fine and I think that a lot of people will be tempted by this and that is why I think that it is really important that, for example, if you have software to detect - if you could check if data sets are real - because I think that it happens. And then also - because all the journals are always looking for the significant findings and maybe if it becomes more important that data is real than that it is significant that would be a nice change. So, maybe, this could contribute to that.
+[a tone indicating yes].
+No.
+No.
+I will look at my notes because I think I told everything but ... no, I told everything.

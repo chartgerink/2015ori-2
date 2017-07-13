@@ -1,0 +1,61 @@
+Yes.
+Yes, I am - I am a PhD student.
+Methods and statistics.
+No, I never did the Stroop task.
+I have learned about the Stroop task so I know what it means. And, well, once as a participant for a study, I performed the Stroop task. But I never administered the Stroop task to anybody.
+Well, for this experiment, for fabricating data, I looked it up on the internet to remind myself of what it was. But I didn't really look at studies.
+Once a week would be Matlab and probably FSL which is a fMRI statistical language program.
+Which kind of peers do you mean?
+Ah in my field. I would say 8.
+3.
+I did it today in one day.
+1 hour and 15 minutes.
+From 1 to 7, it would be 4.
+Yes. I downloaded an empirical data set from the internet. And I thought beforehand on which characteristics I should keep in mind when fabricating the data.
+1 hour.
+No.
+No.
+I looked at - So, we had to fabricate four variables, two mean values for 25 participants and 2 standard deviations for 25 participants. For each of these 4 variables, I looked at characteristics such as the mean of that value, the variance of that value, and the correlations between the 4 variables. And I used this information for my simulation. And I also - I based the mean values, the variances, and the covariance upon one empirical data set that I downloaded from the internet. And, yes, so, and I also looked at outliers, because there was one outlier in the empirical data set that had a huge impact on for example the correlation between two variables. And when I looked at the scatterplot I saw that I should probably remove this case. So, I removed one case from the empirical data set and used the remaining of the empirical data set to - for the basis of my fabricated data set. So the means, the variances, and the covariances.
+I just googled 'Stroop data set' and I found one on the open fMRI site. So, it's people in the fMRI scanner performed the Stroop task.
+Sorry.
+A lot. So, I actually based everything on this prepartion. So, the means, the variances, the covariances were all based on the preparation.
+Well, I have written it down in a script. So, here I see: So, first, I downloaded the data set, then I inspected the empirical data set by looking at histograms and scatter plots and looking at means, variances, and covariances, and the ranges also. Then, I removed one outlier. And then I started fabricating the data set. ... It's actually the same as what we just discussed, but I just repeated it.
+Well, first of all, out-of-range values. So when fabricating the data and (?) still using the outlier value as the basis for my fabricating data I had a negative standard deviation, for example. So, out-of-range values. I would look at distribution characteristics. So, you would expect a normal or maybe a skewded distribution. So, you could look at distribution characteristics and the size of the standard deviation, the size of the mean. But also higher order moments of the distribution such as the skewness or curtosis. The correlation between certain variables, yeah.
+So if I would have a data set and if I would have to test whether it is fabricated or not, I would look whether there will be out-of-range values, then it is clear that it cannot be real data. Then, I would compare the distribution with a distribution that I would expect. So if I would expect a normal distribution, I would test it against a normal distribution. And I would compare the means with the means that I would expect. I would compare the variances and covariances between the variables with those that I would expect based on the literature about these types of data.
+Well, I think the answer would be similar to my previous answer. So, it would be genuine if the chatacteristics are similar to what other researchers found when performing this task. So, for the Stroop task, I would download several Stroop data sets, look at the statistical characteristics, and a specific data set would look genuine to me if the statistical characteristics would be similar to the ones that I have downloaded from the internet.
+Yes, definetely.
+I used a random number generator in R called - from the mvtnorm package and the function is called rmvnorm and you can simulate - randomly simulate data with a certain mean structure and covariance structure. So, I simulated four variables with the means that were similar to the means that I observed in the empirical data set that I download from the internet and the same applies to the covariance structure.
+Yes, the covariances between the four variables that I had to fabricate.
+So why I would think that my data would go undetected? Well, the fact that I took into account these statistics - so, for example, the correlation between those variables - it should be very high because they are from the same participants - so over participants it should be correlated highly. And I took that into account so not everyone would think about that. So, relative to others, my data set would then be difficult to detect with regard to, for example, correlations between the different variables.
+In the end, not really. So, the means are of course different. The means of the mean value are not the same as the means of the standard deviation values, but I would say that the distribution should be different as well. The mean values can be distributed normally, that is not really strange, but the standard deviations are, I think, not distributed normally. So, I wanted to change that to a different kind of distribution, but I didn't have time for that.
+Yes. I think that I should have looked more elaborately at the form of the distribution of both the mean values of the standard deviations - I only downloaded a small data set with 28 participants and I think it is not reliable enough to really infer the type of distribution that you would normally see. So, I think that the standard deviations are not normally distributed but there is a floor effect, but first of all I was not entirely sure of that and second of all I didn't have time to put that in my simulation.
+No.
+So, I looked at an empirical dataset and I looked at the means of the congruent and incongruent conditions and I used that as the bases of my simulation. So, I used the [?] means for my random generator and I looked at the standard deviation in the emperical dataset and used that as my standard deviation for my simulation. And also the means of the congruent and incongruent conditions are correlated over participants and this correlation was also taken into account.
+How did I simulate the data? With using the rmvnorm function from the mvtnorm package in R.
+Yes, yes. I used that function with the input that is required. So, the mean values of all the variables and the covariances between the variables and the variances of the variables and the output of that function was my fabricated data.
+I took the exact same procedure. So, I looked at the mean value of the standard deviation of the congruent and incongruent condition within my empirical data set - and also the relation between the standard deviation of one data set and the standard deviation of the other data set. And I used that to - as the bases of my data fabrication.
+Yes. I did it two times. The first time I was not satisfied. The second time I was still not satisfied but I didn't have any time left to further improve it.
+I inspected the fabricated data similar to how I inspected the empirical data set that I used to base my fabrication on. And I looked at whether they looked similar in terms of means, standard deviations, correlations, ranges, yeah, that's it.
+Yes.
+For example looking at out-of-range values.
+Out-of-range values are negative values. Yeah, that's the only ...
+Yes.
+No, the same criteria.
+2, because I based the means and standard deviations first on the whole empirical data set and later on the whole data set with one participant removed.
+R.
+Yes, in R the random number generator.
+Yes, I based it on an empirical data set.
+No.
+No.
+Whether I found it difficult?
+Well, no, I didn't think it was difficult. But I think I should have done it better and to do it better would be a difficult job.
+To get the distributions of your fabricated data the way you wanted it to be.
+No, I think that it is easily detected that my data is fabricated.
+Because I have very small standard deviations which, I think, are unusual.
+Related to this, the distribution of my standard deviations is simulated as a normal distribution but, I think, in reality it is not normal. But I am not sure.
+I think it is a really nice idea. So, I like the topic of your study and I also like the fact that I can contribute to that. And because I get money.
+[REDACTED]
+Yeah, I spoke about it with one of the other participants of your study. [REDACTED]. We know from each other that we both participate. And we previously - a while ago - we talked about what could be important for fabricating the data, but in the end we did it independently.
+Well, we spoke about it and while speaking about it, you get ideas. But he doesn't really help me other from that.
+No.
+No.
