@@ -136,3 +136,44 @@ is quite laborious to generate it. So I think that if it becomes so laborious to
 just try and generate youre data, it is probably even just easier to collect real
 data instead of generating false data for 35 people.
 
+# 2a9
+
+> or tools could look like and I actually have no idea. I know from the tax evasion
+literature Benford’s law like the occurrence of different numbers that there is a
+certain distribution that you can look at, but I wasn’t sure if that would really
+apply to response times data in the Stroop task. So, first, I thought about
+
+---
+
+> in condition two four or five are changed to way higher numbers that conform
+with the hypothesis, that obviously looks fake. So, the noisier the data is the
+more I would trust it. But that is only for this dumb-detection of ‘hey, this is
+exactly the same data only some things are changed’.
+
+---
+
+> P: Yes, that is another thing where I - I guess I could have read up (?) on this.
+But I didn’t partly because of the time investment, but also partly because I
+think many people who fake this data - they are also not 100% sure of this
+methods. So, just adding noise to the data - the - I drew random numbers from
+a normal distribution with a mean of zero and added those numbers to the real
+
+---
+
+> P: I guess - since it’s Chris - thanks to Open Science I had a lot of real data
+that I could sample from. So, I didn’t have to do it from scratch because thanks
+to Open Science there is a lot of real data out there that I can just manipulate.
+So, ironically, even though, of course, this is one disadvantage that we should
+happily take - one cost - thanks to being more open, I have a lot more real data
+to sample from and make my data, make my fake data out of.
+
+---
+
+> P: I mean people are always overconfident. So, I don’t wanna be overconfident
+because I don’t know what tools are out there at all. My intuition says it is
+going to be hard to detect because it originates from real data but I don’t want
+to be too confident.
+
+---
+
+> 
