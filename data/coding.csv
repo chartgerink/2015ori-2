@@ -1,7 +1,7 @@
 transcript_file,phd_attained,stroop_experience,software_knowledge,stat_knowledge,confidence_undetected,days_fab,time_spent,perceived_effort,runs,miss_important,preparation,rng,real_stroop,duplicate_transform,detect_check,notes
-0jg.md,1,0,matlab\\r,8,6,2,2,3,7.5,1,1,1,0,0,1,"Participant mentions not checking the resulting data, but mentions checking effect size and altering data because of it, so detect_check = 1"
-19e.md,,,,,,,,,,,,,,,,
-1se.md,,,,,,,,,,,,,,,,
+0jg.md,0,0,matlab\\r,8,6,2,2,3,7.5,1,1,1,0,0,1,"Participant mentions not checking the resulting data, but mentions checking effect size and altering data because of it, so detect_check = 1"
+19e.md,0,1,r\\python,7,5,1,3,4,1,0,0,1,1,0,1,"Participant shows insight into multivariate associations, which were used to check for detectability"
+1se.md,1,1,spss\\r,4,8,4,6,2,1,0,0,1,0,0,0,
 1zm.md,,,,,,,,,,,,,,,,
 2a9.md,,,,,,,,,,,,,,,,
 2f5.md,,,,,,,,,,,,,,,,
