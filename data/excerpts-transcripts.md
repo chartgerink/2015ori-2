@@ -174,6 +174,20 @@ because I don’t know what tools are out there at all. My intuition says it is
 going to be hard to detect because it originates from real data but I don’t want
 to be too confident.
 
+# 2f5
+
+> . . . . well, sometimes it was very much interesting to me - when I was doing
+on that fluctuations I just found that in some period of time the type of the
+numbers I was entering into the system was [?] pretty much repetitive. And the
+very time that I detected it that the numbers are going to play around the same
+thing, I just tried to - I mean - change the way my fingers were just playing with
+the keyboard. It was from up to down instead of - say buttom to up or from left
+
 ---
 
-> 
+> P: No, but actually, I just described the whole sections. The whole process is
+not something very much interesting. I mean when you fabricate the data you
+do not have a good feeling. I mean the whole process does not bring any interest.
+
+# 3pl
+
