@@ -89,5 +89,50 @@ my team has ever fabricated data I am much in favor of catching those who did.
 We have nothing to fear from a good data fabrication detection system. So, that
 is why I ultimately thought, of course, I should participate.
 
+# 1zm
+
+> P: I read a general article in The Guardian, I think, about data fabrication and
+I read the book of Diederik Stapel. So, I have a very broad idea of how other
+cases were detected but no specific, scientific articles, just popular - like general
+audience articles.
+
 ---
+
+> P: Yes. I think large effect sizes. Also probably inflated correlations or (?)
+correlations, spurious correlations, for instance correlations between standard
+deviations, I think, that you wouldn’t expect but are there. And that might
+indicate fraud as well. Yeah, what else? I think if you generate it with a statistical
+
+---
+
+> P: Yeah, again, focusing on not too large correlations, not too big effect size, and
+making sure that the standard deviations and the reaction times are acceptable,
+that they are not too big or too small to be genuine or to be real.
+
+---
+
+> P: First of, I checked the effect size whether it was acceptable. So, I decided
+that like a t-value around 2 and a half to 3 or something would be acceptable for
+this sample size. And then once I had that, I checked the data in a new Excel
+file and I correlated - aeh, I calculated the correlations using Excel and then just
+
+> P: Yeah, just on my impression what would be acceptable. Yeah, I think it can
+vary a bit but, yeah, I didn’t really have a concrete idea how big it would be.
+
+---
+
+> But then I noticed that I have some biases myself or that I don’t know exactly
+how real data is supposed to look like. And then, yeah, I tried to adjust it but I
+was just - I noticed that I just didn’t have enough background or information or
+knowledge about how real data structure looks like to be sure that it looks like
+a real one. So then, yeah, once I generated it, I always started to worry about
+how it should exactly look like.
+
+---
+
+> P: I think it is just worth mentioning that it is quite hard and it also feels that
+with some motivation you can do it better, but then it also feels like it is like it
+is quite laborious to generate it. So I think that if it becomes so laborious to
+just try and generate youre data, it is probably even just easier to collect real
+data instead of generating false data for 35 people.
 
