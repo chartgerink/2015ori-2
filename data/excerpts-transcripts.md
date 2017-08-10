@@ -292,6 +292,18 @@ to detect as fabricated?
 
 > P: No but like by logic: If you detect it, your method is flawed.
 
+# 82z
+
+> P: So, I think low variance probably and . . . yeah, so, I wasn’t really sure
+(?), I think it’s - obviously if maybe effects are too large or maybe if there
+aren’t correlations between for instance the mean reaction time and the standard
+deviation that are likely to be there in real data.
 
 ---
+
+> I: Ok. And do you think your approach to data fabrication will be difficult to
+detect as fabricated?
+P: Well, I am a bit uncertain about that. So, I know I wouldn’t spot it as
+fabricated data but I am not aware of any detection methods or anything other
+(?). So, it is kind of hard to get a feel for that, yeah.
 
