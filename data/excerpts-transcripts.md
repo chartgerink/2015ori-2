@@ -223,4 +223,75 @@ would not be detected but on the other hand I was also afraid that I would be
 too good at this. So I am not sure what is the compliment - being good at this
 or being bad at this.
 
-# 
+# 3wn
+
+> be undetected by your methods. Now, I am assuming that your methods are
+good. Which means that you can’t detect like properly generated data, right?
+Because otherwise your methods are shit basically, right? So that is like wheream starting. And then, it is very easy because the Stroop effect is something
+I
+
+---
+
+> am starting. And then, it is very easy because the Stroop effect is something
+that is actually there. It is one of the most replicated things out there. So, my
+strategy was to just do the Stroop task myself. And then just generate data
+like that. And the only requirement is that we get a significant effect. So, I just
+played the Stroop task for 25 times - at different times - and I just take that.
+And that’s it. So, that was the whole reasoning. And then - I was thinking
+about this - how to generate this ideally. But then the best is just to actually
+create the data how it is supposed to be created because then if your methods
+are working you won’t detect it as artificially because it is not. So, that’s it.
+
+---
+
+> I: And did you take these characteristics you just mentioned into account when
+fabricating the data?
+
+> P: No, that is not necessary because I did not generate the data in an artificial
+way.
+
+---
+
+> P: Yeah. So, I went online to find a Stroop task which I could do in my browser.
+And I found one. And then I just played it 25 times for the 25 participants.
+Then, it was actually 60 trials required but then in this game it was only 40. So
+what I did is for each participant I calculated - or for each round of me, basically
+- I calculated the ratio of errors and then I scaled up from 40 to 60 trials. And
+then again - and the missing ones I sampled from the whole pool of all trials
+of all participants. And that is how I scaled it up from 40 to 60. Because that
+was the only thing where I was thinking maybe you can find something because
+maybe of some variance or something like that that if less variance within person
+if you have 60 trials compared to 40 trials. So, I scaled it up. And that is the
+only thing what I kind of changed in the data after generating them in a genuine
+way. Well, and then I just calculated for each participant the mean in the two
+conditions and the standard deviation. And that’s it.
+
+---
+
+> I: So, did you determine in some way whether you were satisfied with the
+fabricated data or that they needed to be adjusted?
+
+> P: No, because I knew that the process is a genuine one. So, I didn’t look at
+anything.
+
+---
+
+> P: No, I think it was very easy because you were asking to fabricate an effect
+which actually exists. It would have been much more difficult - and much more
+interesting, I think, for you - to give me the task to create an effect whichactually not there. Because then I couldn’t do it that way.
+is
+
+---
+
+> I: Ok. And do you think that your approach to data fabrication will be difficult
+to detect as fabricated?
+
+> P: Yeah. It is going to be impossible.
+
+> I: Ok. So you can’t think of any way how it could be detected?
+
+> P: No but like by logic: If you detect it, your method is flawed.
+
+
+---
+
