@@ -190,4 +190,3 @@ not something very much interesting. I mean when you fabricate the data you
 do not have a good feeling. I mean the whole process does not bring any interest.
 
 # 3pl
-
