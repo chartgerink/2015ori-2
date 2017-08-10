@@ -190,3 +190,37 @@ not something very much interesting. I mean when you fabricate the data you
 do not have a good feeling. I mean the whole process does not bring any interest.
 
 # 3pl
+
+> P: I did check the correlation between the standard deviation and the mean for
+both - the incongruent and congruent parts. And I tried to keep them similar to
+the existing dataset that I had. So, for example I saw that the correlation was
+lower between the standard deviation of the incongruent trials and the mean of
+
+---
+
+> I: How did you add the error?
+
+... 
+
+> I: And did you do this like by yourself or did you like have a computer program
+to simulate how much noise you want to add or . . . ?
+
+> P: No, I did it by myself because I didn’t want any structural changes that could
+be detected.
+
+---
+
+> P: Yes. I discussed it because I know that others that I know are also participating
+in this. But we also made clear to each other that we didn’t want to say what
+we are using. But we were talking about it like what kind of methods would
+they use to detect it. None of us could come up with a good way it could be
+detected. So, we didn’t share much information in that sense.
+
+---
+
+> P: I felt challanged in the data fabrication and on the one hand I hoped that I
+would not be detected but on the other hand I was also afraid that I would be
+too good at this. So I am not sure what is the compliment - being good at this
+or being bad at this.
+
+# 
