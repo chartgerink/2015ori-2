@@ -307,3 +307,32 @@ P: Well, I am a bit uncertain about that. So, I know I wouldn’t spot it as
 fabricated data but I am not aware of any detection methods or anything other
 (?). So, it is kind of hard to get a feel for that, yeah.
 
+# 8nb
+
+> P: I am familiar with general aspects of what went into detecting Diederik
+Stapel’s data fabrication and alleged fabrication of Jens Foerster with unrealistic
+consistency in results and standard deviations. Yes, so, I am also aware that
+individuals are intutitively poor at generating random values. And so I took
+that into account in generating data.
+
+---
+
+> P: Yes. So, I took 50 cases from an existing data set where participants had
+completed an individual differences scale. I took the - the scale had 21 items
+- I took the mean of those 50 participants for the 21 items. For the first 25
+participants, I divided the grand mean that I targeted for the congruent group
+by the mean of those participants and then I multiplied every individual mean
+by that value. And I did the same process for the second group. I took the mean
+of all individuals, took the grand mean of that, I divided what I had wanted to
+be the grand mean of the incongruent group by that value and I multiplied each
+person’s mean score for the scale by that value.
+
+---
+
+> P: Yes. I simply multi- I took the standard deviation of the scale scores for the 21
+items on the individual differences measure for every participant and I multiplied
+those standard deviations by the average of the two transforms that I had made
+for the means so that the variances would be roughly equal between groups. It
+wouldn’t be exactly equal but I wouldn’t be multiplying the variance by a larger
+number for the incongruent group than I had for the congruent group.
+
