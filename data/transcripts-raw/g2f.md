@@ -36,6 +36,7 @@ I: Ok. And which statistical analysis programs do you use at least once a week? 
 P: So once a week when I am analyzing data, but then (?) in the data analysis phase mostly R. Sometimes if I want to get a quick answer from something I use SPSS. I would say it is 70% R, 20% Matlab, and 10% SPSS.
  
 I: Ok. And how would you rate your knowledge of statistics relative to your peers on a scale from 1, extremely poor, to 10, excellent?
+
 P: I would say 8. I should maybe add that I about half a year ago started applying Bayesian statistics, so I mainly (?) work with STAN, [?] R implementations, yeah.
  
 I: Ok. And how confident are you that your fabricated data will go undetected as fabricated? Again on a scale from 1 to 10, where 1 means extremely insecure and 10 means extremely confident. 
