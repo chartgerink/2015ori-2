@@ -444,6 +444,40 @@ study and we didn’t want that, so yeah.
 > P: But this is the first thing I am going to do when everyone is done. Compare
 tactics.
 
+# g2f
+
+> P: I did. So, one idea was to actually take a real data set, but, yeah, I didn’t do
+that, because I didn’t think it would actually be helpful. I started by basically
+
 ---
 
-> 
+> just drawing 25 times 4 samples from normal distributions. But then I well
+started using different kinds of distributions. So, other approaches - other
+approaches of course would also just basically get the data. Just test myself on
+that amount of trials, but that again would not really be fabrication. But, yeah,
+that’s pretty much it.
+
+> P: Because I thought it might be interesting for you to maybe have like a
+potential false positive in their, but then I thought, ok, you can probably find
+your own real data sets. So, no, I just, yeah . . .
+
+---
+
+> P: Well, it is actually fairly simple, I would say, what I did. But I mean I looked
+at parameters of distributions in existing data sets. Then, I recreated these
+distributions and sampled from them. So, I had distributions for the means
+and for common variance. And then I was making two joint distributions. And
+essentially sampling from those.
+
+---
+
+> P: I think this is an extremely good initiative. Data fraud in science is really
+bad considering the importance of the whole [?]. The monetary aspect was very
+appealing as well. I did end up spending more time than I thought I would,
+but I think it is quite worth it. So, yeah, it is mostly wanting to support the
+study and also earning some [?] easy money. And also the exercise itself is a
+good practice, I think, to think about distributions and how data works, roughly
+speaking, yeah.
+
+# h5w
+
