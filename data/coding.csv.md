@@ -13,8 +13,8 @@ miss_important: whether participant mentioned missing something important during
 # data fabrication characteristics for QCA
 preparation: whether the participant made preparations before starting data fabrication (e.g., read on previously detected cases; [0=no|1=yes])
 rng: whether the participant used a random number generator (e.g., simulate data, add noise; [0=no|1=yes])
-real_stroop: whether the participant used real stroop data during fabrication [0=no|1=yes]
+real_stroop: whether the participant used real stroop data in the fabrication process [0=no|1=yes; does not include looking at literature]
 duplicate_transform: whether the participant exactly duplicated data or used a transformation (i.e., duplication by formula, excluding noise addition because it falls under `rng`; [0=no|1=yes])
-detect_check: whether the participant checked the fabricated data for detectability themselves [0=no|1=yes]
+detect_check: whether the participant checked the fabricated data for detectability themselves using some empirical indicator [0=no|1=yes]
 notes: some notes on the coding process [string; optional]
 # outcomes

@@ -336,3 +336,114 @@ for the means so that the variances would be roughly equal between groups. It
 wouldn’t be exactly equal but I wouldn’t be multiplying the variance by a larger
 number for the incongruent group than I had for the congruent group.
 
+# ez8
+
+> had to take care not to do that. But I thought it would be easier if I just would
+go about it as I do - as I would if I was going to fabricate the data myself. And I
+thought, it would be the best starting point to at least know what sort of normal
+data would be. So, I started looking up the articles, some articles on the Stroop
+task, to get a general feel of the response times in both conditions. And I looked
+
+---
+
+> be at least some weird results or outliers. Yeah, what I struggled with more was
+that the instructions were not that specific. So, it - a lot of questions came into
+my head like what kind of participants are these? Are these young people or
+patients or old people or a very varied group? Or was this the vocal version
+of the task or a computerized version of the task? I thought I had to at least
+try to make the participants a little bit consistent. Because I started out with
+
+---
+
+> When it comes to response times I know at least that people are never quicker
+than 150 milliseconds. I just know that from my work, I did [REDACTED]. So,
+
+---
+
+> would make sense. But I actually thought that faking the data would be a lot
+harder than just programming the experiment and doing it.
+
+---
+
+> P: I don’t know. I am not sure if I am the only one but I worried a lot about
+how many values I should have behind the comma and if they should be similar
+or not, if people would look at that or. So, I don’t know, I became very paranoid
+of oh my god, what would be - like weird or if I had one outlier, where would it -
+would it be participant 24 or 3, would that matter? Like normally, you don’t
+even pay attention to these things and now I thought, oh my god, if you really
+were committing fraud, this would worry me like can I make participant 25, like
+the last one, an outlier or would that be weird? I really - I found that was quite
+stressful actually.
+
+---
+
+> P: Well, at some point I thought I was happy with them and then I put them in
+the template and then I had the biggest significant effect ever. And I thought
+no, this is too much. So, I did try to make it - to then turn it down a little bit.
+So, I think it is a little bit with that as well. And I tried to make sure that there
+
+---
+
+> condition and the rest sort of that kind of things. To not make it look too nice.
+And I wondered how strong I should make the effect. Because it is quite easy
+to make a really significant effect with a really high t-value, so I tried to lower
+it a little bit. But then I didn’t know actually what, because a lot of the old
+literature doesn’t really report that many t-values anyway. So, I was like hmm,
+then I struggled with that. Like ok, because this is such a well-known and such
+a strong effect that it could very well be really strong, so yeah, at some point to
+be honest I thought you just now have to quit, because they said you should
+spend like half an hour on the data fabrication and you are already ongoing like
+4. So maybe, you should just let it go and be happy with it now.
+
+---
+
+<!-- nice description -->
+> P: There is just so much you have to think about and I thought, yeah like I said
+before, I - it would have been so much easier for me to program the experiment
+and do it with at least - or do it 25 times myself or with a few friends. I would
+have been done within half an hour, I think. To get real data. Because this is
+such an easy task to program and to do. It would have been done so quickly
+that, yeah - I mean, we had a laugh about this actually, because I have a lot of
+friends [REDACTED] and I said, oh my god, it would be just so much easier to
+do this for real. And then they said, oh, you would be fabricating your data for
+your fabrication experiment, because you have to fake it, so, yeah, that would
+be funny. But, yeah, I thought it was hard and stressful in a way, because you
+wanna do it well. And you are like, there is so much, I don’t know. Like who
+are these people, are they quick or nor, or are they students, are they motivated
+to do it well, or are these people who just wanna get it over with or - because I
+know these are all things that really influence your data quality. So, I thought
+it was, yeah, it was difficult. And then I noticed, I never really thought that
+much about my own data in a way. That if you have your own experiment, you
+have such a real sense of what it - what makes sense, and you have really strict
+things that you think upfront, like what do I think will be an outlier, you know,
+who will I take out, but I never thought about my standard deviations in very
+abstract way like they should be this high, but so I don’t know, I thought it was
+interesting but difficult. And I don’t know why people would do this.
+
+---
+
+> P: Yeah. I thought it was really funny, like a cool challenge. Yeah because I
+have many friends [REDACTED], I really try to follow the research that they
+do and I also think Chris is doing really cool studies. I think within me, it is
+sort of a race like oh this would be so cool, this would be your chance to see if
+you could do this or not. And I don’t know, I noticed with my friends that they
+had the same response like we thought this would be a really cool game like to
+see if you could beat the system to see if you could be really good at faking it.
+And to be honest, when I started, I thought I could do this a lot better. Then I
+started it and I thought, oh, this is more complicated or more stressful than I
+thought it would be. But I don’t know, I think it is really cool. I really hope
+that Chris can make an algorithm that can detect it. That would be really cool.
+I don’t know I think it is a really nice study.
+
+---
+
+> P: No. It was - I mean sometimes I would want to ask like how did you do this,
+but I thought no you have to do this individually, otherwise we would ruin Chris’
+study and we didn’t want that, so yeah.
+
+> P: But this is the first thing I am going to do when everyone is done. Compare
+tactics.
+
+---
+
+> 
