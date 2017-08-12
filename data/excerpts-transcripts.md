@@ -622,6 +622,105 @@ better the techniques we have to detect these things, you know, the more the
 field will benefit. So, that was my - I was intrigued and I thought it might be
 very useful
 
+# h65
+
+> reasoning process during the preparation time a bit?
+P: Yeah, so my first instinct was to generate the data using some kind of a model
+like a model participant. That’s what I went for in the end. And how - the other
+things I considered was doing it by hand - and just filling in values by hand -
+or using data I have lying around and change it around a bit. So, using real
+data, but then just, yeah, re-using it basically. Those were kind of the three
+approaches I have considered.
+
 ---
 
-> 
+> P: Well, the reason is that I thought, this would be the most difficult to detect,
+because I basically - I generated data that should be very similar to how we
+make statistical models of data, so I think that is very difficult to distinguish
+from real data. And I also think this would be the least susceptible to, yeah,
+me making manual errors, repeating numbers or something like that, some kind
+of repeating pattern that I would do as a person, right. Yeah, so that is why I
+chose for this. I think this would be the hardest to detect.
+
+---
+
+> P: What would to me make data look more fabricated is especially if you have
+25 participants if all participants show the same direction of the effect. So if
+the within-subject effects are very similar to each other that would to me signal
+that someone has been fabricating data. Or repeating numbers, like repeating
+patterns of numbers, because it is so unlikely that you will find 498.8 multiple
+
+---
+
+> means and standard deviations per participant. I think it is quite hard to tell if
+the data is genuine. I would be more convinced if you had trial-by-trial - because
+we were supposed to simulate 30 trials - if you had the trial-by-trial data I think
+it would be easier to see – for me at least- if the data looks genuine. So, raw
+data would be the answer to that for me.
+
+---
+
+> something like that I would say this not - you did something - I would assume
+that someone did something wrong rather than fabricated their data, but, you
+know, that would indicate to me that something is up - if the magnitude of
+the effect isn’t ok. And the raw data, yeah, if, I don’t know, the amount of
+participants doesn’t match up and that kind of stuff like, yeah, I think there is -
+
+---
+
+> P: Well, mainly that - well, what I took into account was that I shouldn’t do
+stuff manually, because if I do it manually, you might be able to detect in pattern
+how I am entering stuff. So, I thought I should do this with a computer and not
+touch it myself at all. And make a very convincing model participant, but don’t
+type in the Excel sheet myself. That was my main consideration.
+
+---
+
+> P: Well, yeah, I got all my - yeah, I got my criteria basically from papers. So, if
+the Stroop task paper matched my generated data, then I would find that pretty
+convincing. Yeah, that basically.
+
+---
+
+> P: [REDACTED]. Yeah, so what I did is that I specified the mean for congruent
+condition, which I found from one paper, and then I looked at a couple of papers
+what typically the difference in means is for a congruent and an incongruent
+condition. And I specified that. And I think the mean here that I used is 672
+and I found that the difference between the two conditions is about 50 - is it
+milliseconds - yeah, milliseconds on average. And that, yeah basically, that.
+
+---
+
+> P: Yeah, yeah, ok, I kind of just - I just did that, but the standard deviations I
+didn’t specify. I used a standard deviation of about 130, I think, and then I said
+in the incongruent condition, that’s about 10 higher. So, that’s the values that
+it should be centered around, yeah.
+
+---
+
+> P: Yeah, so I - well, for one, if there were no like things that I - some kind of
+artefacts. For example, the random noise putting that in was that was a bit
+tricky. What it does now is that it determines for each participant a magnitude
+of noise between 0 and 1, where 1 is just complete random noise and 0 is perfectly
+sampled from a distribution. So, that was a bit tricky to get that right because
+if that is correlated with each other, then you don’t get these ellipsoid clouds of
+or ellipsoid relation between the mean and standard deviation, but you get these
+kind of crosses, you get kind of these axes, these weird shapes that I think would
+be very detectable if you looked at it. So, I made sure there was nothing weird
+in that. And then once I got the distribution right I looked at papers to see if it
+matched the distributions I found in papers. And once it did, I was satisfied.
+
+---
+
+> I: And can you think of ways how it might be detected as fabricated?
+
+> P: Well, I was thinking - well, the fact that you mentioned a random number
+generator worried me slightly, that you might find some kind of pattern in that,
+that you could find the seed of it somehow. I have no idea but, yeah, so that
+would be – that’s worrying me now a little bit. I didn’t consider that. And what
+else could you do? I am thinking that maybe there is some kind of information
+in the Excel sheet if that makes any sense - if it has been copy-pasted into it or
+something like that all in one go, that would be a bit suspicious. I don’t know if
+you could retrieve that somehow. But other than that, no.
+
+# hsu
