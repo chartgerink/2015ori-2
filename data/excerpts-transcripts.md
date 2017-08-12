@@ -481,3 +481,147 @@ speaking, yeah.
 
 # h5w
 
+> you in a minute, but some randomizer here and there, because I thought, well,
+if I am gonna do that by hand, it is probably not going to be random enough
+and that’s what I learned from these earlier experiences, that people tend to
+create patterns that are actually not random enough, basically, and like avoiding
+round numbers and those sort of things, because they think that makes it looks
+random, but in actuality those numbers do occur, of course. So, I tried to use
+some of that by using a - by basically changing values using a random number
+generator.
+
+---
+
+> P: No, not really. It was - I have to say, though, that it was much more effort
+than I thought. It is almost easier to run the experiment to be honest. If I had
+run the experiment on Mechanical Turk, I would have been done more quickly.
+Yeah, that is - that surprised me. Also because you are second guessing, so I
+am thinking the whole time if I were in their position, I would be looking for
+this and that. So, I should make sure I, you know, don’t do these things. That
+makes a little, yeah, more work, more intense than I had expected. And also
+it feels strange to do it, it feels very odd, almost like it is a criminal act which
+normally it is, but . . .
+
+---
+
+> higher standard deviation than a person with a longer reaction time and you
+could have a smaller standard deviation. So, I tried to look for that and then I
+realized that - but maybe then I am getting ahead of myself - that it would be
+difficult for me to produce that by hand and so I used an existing data set and
+tweaked it. That is basically what I did. Because I thought there may be all
+kinds of hidden regularities that I am unable to see but that you guys will be
+able to pick up on. And so, I thought if I use a naturally occurring data set and
+I tweak it in a certain way, then it probably still has these regularities that are
+sort of hidden to me right now but that you guys will be able to pick up. So,
+that was basically my thinking.
+
+---
+
+> so good at that and that will take me more time, but then - and I thought,
+you guys will probably be able to detect that. So, it is much better if I use
+an existing data set and then manipulate it a little bit. So, I used a data set,
+you know, from a Stroop experiment and it had 25 - aeh it had 24 subjects, so
+I created an additional one basically taking a mean and a standard deviation
+that were somewhat comparable to the rest. And I - for the existing data set, I
+computed all the condition means and standard deviations and then they had
+21 observations per condition, but you wanted 30, right? So, I thought, well, if
+you have more observations, then the standard deviation is going to be lower
+per subject, so I took the 21 response times from a condition and then copied
+the last 9 ones, then I recomputed the standard deviation so that it became a
+little bit smaller overall, not always by the way. And then, I did that for the
+first 3 or 4 subjects and then after that I sort of got a sense of ok it is going to
+be reduced by 20 or 30 milliseconds to that - or 10, yeah, 10 to 30, so I basically
+said, ok, this one had 225, I will make it 220. And this one had 234, I will turn
+it into 214 or something like that. And I did that for all the standard deviations.
+And so then I had a pattern that looked realistic, I thought, because now I have
+25 subjects and I have standard deviations that look reasonable for if you have
+30 observations per condition. But then I thought, well g (?), maybe they have
+some sort of a program that just looks for these kind of reaction times on the
+internet, you know, some search program, so I shouldn’t have an exact match.
+And then I basically took the condition means and in Excel I randomly added
+or - plus or 5 - plus or minus 5 milliseconds, so, you know, so the difference
+between the means would still be fairly realistic for a Stroop task, but if you
+did a search, you wouldn’t find these exact numbers online. And then I also
+re-ordered the subjects to make it a little bit harder to match it up with the
+original file. And that is what I did that one morning. And then a few days ago,
+I thought, well, but maybe the condition means are still going to be very close to
+the original, because all I did was randomly add or subtract, you know, minus 5
+to 5 milliseconds, but on the average you should get pretty much the same means.
+So the only difference was the 25th subject that I added, but that didn’t change
+the overall mean so much. So, I basically - after having re-ordered the subjects,
+there was a different number 25 and I gave that subject longer reaction times,
+so 100 milliseconds in each condition, and I also made the standard deviations
+a little bit higher. So that that influenced the overall mean so that now if you
+guys compute the overall means for my conditions, they are not the same or not,
+yeah, highly similar to the ones you can find online. Because I figured, well, one
+thing they are going to do maybe is for sure look for regularities in the data or
+lack thereof. But something else they might do is just, you know, figure out, oh,
+some people may use existing data sets, so we are going to have a program that
+just goes through the entire Open Science Framework or something like that. So,
+I shouldn’t have perfect matches to the data in there. So, that is why I did that.
+
+---
+
+> things that he looks for. And then I thought, well, you need to have a reasonable
+effect size, comparable to what you find in the literature. The relation between
+
+---
+
+> interesting for us to know?
+P: I think, well, one thing that occurred to me is even though I am an advocate
+of open science, you know people publishing their data or posting their data,
+there is a risk of course, because they could be doing what I am doing here. You
+know you could basically create some sort of Frankensteinian data set out of
+other people’s data sets. That is why I think it is useful that I did it this way,
+because it would be very good if you could detect this, because I think this might
+be what people will start doing, because they will start thinking, well, it is way
+too difficult for me to create my own data set, I would have to, you know, learn
+how to simulate in R or whatever and even then I am not completely sure if I
+capture everything, why not take an existing data set and tweak it. And pretty
+soon, there will be data sets for pretty much every experiment that you want.
+So, you can just look at those and that is why I think your detection program
+should have something where it would automatically scan all those files on the
+Open Science Framework for example and then not look for direct matches, I
+guess the way you could find this is if you ordered all the response times and
+then you would do a correlation with the ones that I have and the original ones,
+then that correlation would be extremely high, maybe higher than you would
+normally expect. That would be how I would probably try to approach cases
+like this.
+
+---
+
+> P: Yes, more difficult than I thought, because it is a - in fact, it is actually, I
+think, a useful exercise, because it gives people a much better sense of what data
+should look like. So, when you do your own experiment or, you know, you are
+a checking let’s say a data set that a collaborator has produced, you can more
+easily detect if there is something weird about it, which could be fraud but could
+also be a mistake that somebody made, you know. I have seen it where students
+use cut-offs for response times if two standard deviations from the mean, but
+then they did it in the wrong column and so they got significant effects where I
+would not have expected effects and I looked back and I could find the error in
+the data file basically because so they had the cut-offs for the means but I said
+also compute the medians and the medians showed no effect, but the means did.
+And then I thought, oh, there is something wrong with how they did the means
+and I think those are the sorts of things you become more sensitive to when you
+do an exercise like this. So, I actually thought it was useful to do it.
+
+---
+
+> study?
+P: Ok, well, that sounded like a very interesting project that is kind of a counter-
+intuitive thing to do, but I think in the long run it will be very useful, because
+even though, you know, there are some fraud cases that have become public,
+I know of at least 2 or 3 other cases that have not become public and that
+probably will never become public, so if I already know 5 or 6, then you know
+there must be dozens and dozens. And so, that makes me worried, so I think if
+we have good software that allows us to detect fraudulent data then that will be
+a benefit to the field. And like I said, when I was doing this, I realized that the
+disadvantage of having open data is that there will be many more data sets for
+people to work with, to harvest so to speak, to create their own data set so the
+better the techniques we have to detect these things, you know, the more the
+field will benefit. So, that was my - I was intrigued and I thought it might be
+very useful
+
+---
+
+> 
