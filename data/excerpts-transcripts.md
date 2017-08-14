@@ -842,6 +842,55 @@ up what values could be reasonable for a Stroop task, but this would be the
 first thing that I thought, ok, this is how they could detect my fabrication and I
 hope to have countered this. The second thing is what I have mentioned before
 
+# jgg
+
+> P: I think, yeah, that we have got some - that we have all got some patterns in
+which we like to work. And I think that if you find some patterns in fabricated
+data that you might see that it is fabricated. For example, if participant 1, 2, 4
+is a mean time of 10, 20, 30, 40, yeah, that is a pattern and I think that might
+be fabricated because I think people like to work in patterns.
+
 ---
 
-> 
+> P: Yeah, I think if data is highly significant it might be fabricated because, yeah,
+in real life data is not that significant most of the time.
+
+
+---
+
+>P: Yeah, I tried to avoid patterns in my fabricated data. And as I said before, I
+have looked up the average time for one trial and I have tried to take the average
+for the majority of my participants with 1 or 2 outliers, yeah.
+
+---
+
+> P: Ja, I have started up looking like information about the mean total amount of
+time for the entire Stroop task in the congruent condition. And I think it might
+be - I have [?] it here somewhere - oh yeah, yeah, it was between 6 seconds and
+15 seconds or something, so I thought, yeah, that might be great. Then I have
+looked into my patients but they were patients of 70, 80 so I thought they may
+be a bit too high for an average participant and then I have went to a website in
+which you could yourself do a Stroop task of 30 trials and I did it 4 times and I
+came like 12 seconds, 13 seconds, 15 seconds for 13 trials. And then I divided
+it by 30 and, yeah, that’s when I tried to - well, that is an average of - I don’t
+know exactly but maybe half a second per trial. And then I decided, well, then
+I am going to randomly type some numbers between 300 milliseconds and 800
+milliseconds for each participant so that I’ve got a lot of mean, yeah, second
+trial things (?) and then I went to SPSS because I saw that there were actually
+a lot of participants scored between - how could I say - 300 milliseconds and
+500 milliseconds in a large population. So, I have changed a couple of numbers
+so that the propotions were as equal as the website displayed for the general
+population.
+
+---
+
+> P: Yeah. Maybe, I have. I saw that my p-value was very low, very significant.
+But I decided to let it be as it was because I think the Stroop task and the
+Stroop effect is a highly significant effect. So, I think in a real data set, yeah, it
+might look like this, ja.
+
+---
+
+> P: Yeah, yeah, it is very difficult. I talked - yeah, before my colleague [?] said
+that it might be easier to actually find 25 participants and conduct the Stroop
+task than fabricate the data, yeah. It’s difficult, yeah.
