@@ -895,4 +895,21 @@ might look like this, ja.
 that it might be easier to actually find 25 participants and conduct the Stroop
 task than fabricate the data, yeah. It’s difficult, yeah.
 
-# jmg
+# jmq
+
+> P: I did feel a bit excited or nervous during the data fabrication. And I thought
+about it. I thought it is probably for three reasons. One is, it felt a little bit
+wrong. Just, you know, the idea of creating your own data. But also because I
+wasn’t sure whether I was allowed to use real data. It didn’t really say so in the
+task. But also it is like - it is not simulating and (?) actually creating new data.
+And three, because of the competetive element, it was also more exciting than
+just, you know, doing some random stuff.
+
+# nbu
+
+> P: Yeah, because I felt that I could have done a better job if I had more statistical
+knowledge. So, now, I feel that I just did something and maybe it is very stupid.
+I don’t know. So, I was a bit insecure but it was also kind of uncomfortable
+because you were doing something that was not right. But it is an experiment
+so when I named the data files like ‘data fabrication experiment’ it felt better
+already but it still was a bit weird. So, it was difficult and weird.
