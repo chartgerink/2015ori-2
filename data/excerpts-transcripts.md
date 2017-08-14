@@ -894,3 +894,5 @@ might look like this, ja.
 > P: Yeah, yeah, it is very difficult. I talked - yeah, before my colleague [?] said
 that it might be easier to actually find 25 participants and conduct the Stroop
 task than fabricate the data, yeah. It’s difficult, yeah.
+
+# jmg
