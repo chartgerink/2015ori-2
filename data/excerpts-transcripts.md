@@ -954,6 +954,41 @@ I am still not sure if the spreading of the standard deviations is right. So, li
 the standard deviation of the standard deviation. I do not know if I did that
 correctly.
 
-
-
 # ojh
+
+> P: Yeah. I also thought about if you would have other data from the Stroop task,
+I thought you might infer like the covariation matrix from and then simulate the
+data based on that, but I wouldn’t know how to do that. And I also wouldn’t
+know - wouldn’t have a data set of the Stroop task. But I thought you might be
+able to infer it from an actual, existing data set, yeah.
+
+---
+
+> P: Yeah. So, I thought if - because my - the means from the data from the
+congruent and the incongruent data first had a correlation of 0. Then I tried it
+differently and then they had a correlation of .98, which both seem to reflect
+very bad data fabrication. And also at a certain point, I had a Cohen’s d of like
+. - aeh, 1.8 or something. So, I thought these were - that is all highly unlikely.
+And that would give away quite easily that the data was fabricated.
+
+---
+
+> I: Ok. And how did you determine whether you were satisfied with the fabricated
+data or that they needed to be adjusted?
+
+> P: Yeah, just at a certain point I thought it is enough. Yeah, I think if you
+really - yeah, and I realized by doing this process that it is really difficult to
+make actually good fabricated data. So, I thought if I really, really, really want
+to make this data look good, then it would take me probably a week full time to
+actually do it. So, then, I realized that - that, yeah, I would have to read a lot
+more on it and I wouldn’t be able to do that.
+
+---
+
+> P: Because there are so many aspects of data that can be detected and then,
+yeah, I participated because I really liked the idea of the study and because I
+thought it would be a challenge to fabricate the data, but I didn’t expect it
+to be this much of a challenge. Because I am - I only thought probably of the
+simple things that you can easily detect and probably there will be so many
+other things you will look at and you will easily - might easily find out that the
+data is fabricated.
