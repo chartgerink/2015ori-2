@@ -913,3 +913,47 @@ I don’t know. So, I was a bit insecure but it was also kind of uncomfortable
 because you were doing something that was not right. But it is an experiment
 so when I named the data files like ‘data fabrication experiment’ it felt better
 already but it still was a bit weird. So, it was difficult and weird.
+
+# o2f
+
+> P: Yeah, not very extensively, but I thought - I just thought about how natural
+data would look, that there would be some outliers, for example, that it wouldn’t
+be perfect or maybe too significant or too predictable. So, I thought about that
+and tried to remind that all the time when I fabricated the data.
+
+---
+
+> P: Yeah, I think it would look fabricated if it is all too neat and too like wishful
+thinking or too perfect - if it looks too perfect, then I think it would be suspicious.
+[...]
+And I thought,
+maybe if you have a lot of - maybe people have a preference for certain numbers
+when they write it down or try to avoid double numbers or numbers like 100 or
+200, because they think, no that is too obvious, but in a real world situation the
+chances are very likely that a number like that would be there. So, I also tried
+to correct for that by sometimes putting like 117 or something or even 200, I
+think, is in the - something like that.
+
+---
+
+> P: When I wrote everything down, I tried to correct myself by looking at how
+many times I had the same end number and starting number and I put in on
+purpose some outliers and some, yeah, numbers that maybe some other people
+would try to avoid like 400 or something.
+
+---
+
+> P: Yeah, it was more difficult than I expected. The means I didn’t think were so
+difficult but the standard deviations were really difficult, I think.
+
+---
+
+> P: That I really had to dive into statistics and how it actually outworked to come
+up with realistic numbers. And even though I used real data as an inspiration,
+I am still not sure if the spreading of the standard deviations is right. So, like
+the standard deviation of the standard deviation. I do not know if I did that
+correctly.
+
+
+
+# ojh
