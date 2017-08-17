@@ -1160,11 +1160,37 @@ the truth, right, but I also know how easy it could be. So, I can - and that for
 
 # sel
 
-> 
+> P: Well, as far as I remember, he did it – he just filled out the questionnaire. I
+can’t remember that he was using some sort of random simulation or model to
+fabricate the data. So, quite amateur-ish if you ask me. And well, that’s it. I
 
 ---
 
-> 
+> And I would not check that on the aggregated level, but I would check that on
+the participant level. And then I would – if I would see a perfect Bell curve,
+I would assume that, yeah, someone was using a random number generator or
+[...]
+– however, I think we know that people – so, I mean what is more tricky is I
+think if someone does it without a simu-, without a program. So if someone
+tries to be their own random number generator. So the only thing I know is that
+people are particularly bad at it. But I am not entirely sure how to check it. I
+
+---
+
+> realistic. If times get longer, then typically also the errors get longer. And this
+is something this distribution does. So, if the mean increases, then the variance
+- the residual variance also increases. So, these are actually the two features I
+
+---
+
+> mean response times and stuff, and you might say, typically - so I didn’t check,
+like maybe there is a meta-study somewhere this article of MacLeod, 25 years of
+the Stroop task or something, which is now also 25 years old, so I didn’t check
+that if the response times - or if you compare that to the real data probably you
+will just see, yeah, here, we have a, what is it, a difference of 100 milliseconds,
+but for the Stroop task, the difference is typically 150. And then, of course, then
+I am screwed, because I didn’t check these things, but from sort of the structure
+in the data I think you will have a hard time.
 
 # t5g
 
