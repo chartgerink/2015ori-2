@@ -992,3 +992,193 @@ to be this much of a challenge. Because I am - I only thought probably of the
 simple things that you can easily detect and probably there will be so many
 other things you will look at and you will easily - might easily find out that the
 data is fabricated.
+
+# pkl
+
+> P: Well, as I am sure we will talk about in a few minutes when we talk about
+the way I fabricated I used a drift diffusion model and I knew about this model
+beforehand, but that is because I read a lot about that model for analyses and
+now I used it in a generative way. So, it was not preparation for this specific
+research, but there is a lot of knowledge in there that I had that you don’t
+have immediately if you just - So you need to be involved in those modelling
+procedures before you can actually use them to simulate data.
+
+---
+
+> P: So, some of them is about things being - the most general method - most
+general description, I guess, would be to show that some attributes of the findings,
+some statistical attributes, is very unlikely under the assumption of random
+sampling. That is usually, I guess, what they are looking for. And that can
+
+---
+
+> P: Ok. So, I am familiar with the Jens Foerster case where the data seemed
+to be way too linear than you would expect to happen purely based on chance.
+Well, Diederik Stapel, I read the book about how he fabricated his data and
+[REDACTED]. What else? I know about – I have read about Marc Hauser’s -
+made some “mistakes” – I am quoting – using quotation marks – mistakes in
+the encoding or coding of video clips. What else? I think Smeesters, I have
+read about Smeesters stuff. It is mostly psychology or social psychology kind of
+people. I am reading now a lot about – I am not sure yet whether people are
+convinced yet that it is fraud, but about the Brian Wansink stuff who seems to
+have some weird approaches to beating (?) data into submissions. What else?
+...
+
+> I: Like could you say how you think that this knowledge influenced your approach
+to fabricating the data for this study?
+
+> P: Well, yeah, I think that these questions are very much related to people who
+actually tried to fake the data by hand. But given that I have just – I have
+used a model – generative model that we know that describes reaction times and
+accuracy of responses pretty well. So, for me, I did not take anything of this
+into account. I just made the assumption that if you can analyze reaction times
+and responses well – and that has been proven and validly with drift-diffusion
+modeling, then using it in a generative manner should also work given some
+parameters that it uses. And actually I think that this is a very interesting test
+because if this data set is detected as fake data, it means something for the
+validity of using drift-diffusion modelling of (?) modelling responses- latency
+data. So, it would actually be interesting to understand what it means for the
+method in itself if the data are detectable as fake.
+
+---
+
+> hand – I don’t like doing data analyses by hand, I want to use scripts for that.
+So, I also want to fake data with scripts, I guess. I am too lazy.
+
+---
+
+> participants too similar in how they respond. But basically more in general, I
+think, it is all about whether the values are plausible given some assumptions
+about the world (?) – about randomness. And I think that the problem more
+generally about faking data is that humans are not good at generating random
+variables cognitively, so I guess that when people try to fake by hand, they
+copy-and-paste or they change some values but don’t take into account how this
+changes the distribution or the likelihood of the data. And I guess most of the
+people who do that kind of fraud fake that data in that way. They are just not
+knowledgeable enough to actually know what are the features of fake data or
+what changes that make their data unlikely where a data detective might look
+at those things.
+
+---
+
+> P: Well, I guess that the drift-diffusion model takes into account just more
+generally all kinds of assumptions about reaction times and response and how
+they relate to each other. And that is a fairly complex story about the model
+itself, but it is basically the model using something called Brownian motion
+which is a concept from physics where - Brownian motion is basically you have
+some kind of particle, and then you have even smaller particles that you can’t see,
+they are really order of magnitude smaller, they all hit from random directions,
+because we can’t explain where they are coming from, but they hit the bigger
+particle from random directions. So what you see is the particle will move around
+what looks like random ways - and this is called the drunken man’s walk, right -
+and now, this concept has been used in drift-diffusion modelling by simulating
+lots of data based on several parameters that have to do with how fast a response
+accumulates given some input and given some signal in the data. It models how
+fast it accumulates to surpass some criterion to say one or the other response.
+And this takes into account the way that the cognitive process might work in
+order to get to the answer of yes or no over time or in this case of a specific
+color, of naming a color. And I have used a very basic model here, the number
+of parameters that determine what this path looks like can differ from task to
+task and several tasks are modeled more - better with complex drift-diffusion
+models where there are lots of parameters and I chose a basic one based on the
+assumption that the Stroop is a pretty basic effect where there is not much -
+you know it is a very straightforward cognitive process. For me, that was the
+idea. So, that is why I used a basic model, which I am not sure whether that is
+correct thing to do or not. But that, I guess, is the kind of things that I took
+into account while simulating or faking the data.
+
+---
+
+> special cases where you find specific outliers or whatever and you want people to
+train on that. So, potentially, being versatile in modelling and in R also makes
+you a very dangerous data faker, I guess. But people just have to trust me. But
+here you can have the full script if you want to. And I can actually run it for you
+
+---
+
+> P: It would possibly, but in this script I didn’t do anything with that. So,
+actually, every subject is now treated - actually, these data are treated as just
+one single giant subject doing 60 times 25 trials and then I just, you know,
+took subsets from that to create single subject data. So in this case, there are
+correlations between subjects to the extent and within subjects to the extent
+
+---
+
+> condition, and I think you would expect this. Also given how reaction times
+behave, because you cannot - because when you go more towards fast reaction
+times also the spread will truncate, because there is - on the left there is kind of
+a minimum speed that you need to have. And also I guess when a block gets
+
+---
+
+> P: Yeah, for sure, for sure, yeah. Although not as difficult as it would be when I
+do it manually, right. I would not know whether to start actually. Because if
+I would do it manually I would probably already have in terms of being able
+to detect it I would already probably make so many mistakes that it would be
+detectable compared to - I would - you know, the more knowledge you have
+about statistics, I guess, the more you know what should go right in order to
+be plausibe. And if you - I think manually faking is only - you can only do
+that when you don’t know a lot about statistics, otherwise you go crazy. So if
+you know a lot about statistics you can use this model, but then you know you
+ask questions about, yeah, well, but how plausible - how valid is this model?
+And that would become a PhD project in its own, right, because that means
+you are actually investigating the validity of the model, which would be a really
+interesting methodological project, but you know for this specific task I wouldn’t
+put that much effort in it.
+
+---
+
+> P: I think it is important work to find out. I have - in the past couple of years, I
+got a very dark view of our field and I think it is a very good idea to be able to
+find out ways to quantify - well quantify is not a good - to well to detect fraud
+actually. And although I think that statistical methods will never be the only - it
+will never be the nail in the coffin, right, the final nail in the coffin - it is a good
+way to start looking at papers that are already published and see which one we
+should or should not trust or who we should further investigate. And I have seen
+
+---
+
+> the field that turned out to have fabricated data. And one is already too many
+actually, but there are more than one. And this shows to me that we cannot rely
+on just that people say that they are trustworthy, right. So, I think it is a good
+way to start looking, but I also think it is very dangerous because it has to be -
+all these methods, these automatized methods of figuring out data fraud need to
+be validated well if you ever want to really use them to detect fraud. Because
+otherwise you could make, you know, type I errors and call someone guilty who
+is not guilty. And so that’s why I thought it is important to contribute to this
+study, because the better it gets validated now, the better these tools are going
+to be when they are actually needed. That being said, I also thought there is an
+
+---
+
+>  I also thought there is an ethical dilemma here, because I also thought that maybe it could lower the bar
+for people who might have less of a [?] to actually fabricate data once they have
+done it once. And so for people who use drift-diffusion modeling or anything
+like I do, it is already so easy to fabricate data that the only thing holding you
+back from doing it is just because you think, well, I am a scientist, I care about
+the truth, right, but I also know how easy it could be. So, I can - and that for
+
+# sel
+
+> 
+
+---
+
+> 
+
+# t5g
+
+> 
+
+---
+
+> 
+
+# tjv
+
+> 
+
+---
+
+> 
+
