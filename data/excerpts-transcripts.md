@@ -1194,11 +1194,47 @@ in the data I think you will have a hard time.
 
 # t5g
 
-> 
+> was so statistically significant that it was just not even possible. So, I made sure
+that it was not too perfect. That it was significant, because you wanted the
+hypothesis to be able to be positive, but not so positive that it was unbelievable.
 
 ---
 
-> 
+> P: Congruent and incongruent. So what the difference was between those. And
+then I went to this website that provides you with making your own tasks. So,
+there is this demo for the Stroop task and I took that a couple of times in a
+number of different ways. And then I looked at the data that came out of that.
+And then I used that as a kind of, yeah my mode (?) that what I would base
+the reaction times on.
+
+---
+
+> fabricated data if it would be just too fast, like too fast to be able to be done by
+humans hand. Or if the difference between congruent and incongruent condition
+would be too large. Of course, it does happen. There is always outliers, but if
+you would make 30 participants all with really large differences between those
+two conditions, then it would be unbelievable (?). Yeah, they have to lie beside
+or by each other kind of in a believable fashion. And also I realized that, of
+
+---
+
+> that maybe it looks at whether – ok, I noticed when I was fabricating the
+numbers, yeah the numbers, that I had a tendency to write certain numbers
+and not others. For example, I often ended the number with a 9 or a 1, but
+less with a 0 or a 4. I thought that maybe the program looks at that. So, I
+kind of took that away so that it was more overall the same, so ending in the
+same numbers and using the same number for the whole range. And I also had
+a tendency to write numbers going either all up or all down. For example, 236
+or 641, because somehow my fingers just went that way or that way. I have no
+idea if that program looks at that but it might that it can somewhat pick up
+like human tendencies, like deliberate tendencies. So, I tried to kind of tweak
+that as well so that it would look more scattered and more random.
+
+---
+
+> P: I am sure you have a program that knows exactly how to see that, but I did
+all I could to make it look like it was non-fabricated. So, I hope it looks genuine
+enough.
 
 # tjv
 
