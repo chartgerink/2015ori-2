@@ -1238,9 +1238,35 @@ enough.
 
 # tjv
 
-> 
+> [REDACTED] but those kinds of clues would be what I would look for: striking
+similarities.
 
 ---
 
-> 
+> P: Yeah, so I did because I - for each respondent I sampled from - I took a
+sample from a different population mean and standard deviation. So, the first
+thing I did was generate kind of the setup so that I would have for each person
+a different underlying population mean.
 
+---
+
+> P: No, I only did one run.
+
+[...]
+
+> P: Yes, because I thought if I start to look at it and tweak it, I am introducing
+systematic - I was afraid I would introduce some systematic miss (?) so I thought
+I just let R do the work.
+
+---
+
+> the case. Maybe if they compute correlations and find a super low correlation
+between people, I mean within-people, maybe that would be an indication that
+it is not real.
+
+---
+
+> the importance of methodological quality in research. And, yeah, so I think it is
+really important that you guys have data from real fabrications in order to test
+some methods. Because I think that type of methodological research is not done
+very often. So, I think it is really relevant.
