@@ -1401,3 +1401,86 @@ data. If it was for an actual experiment, I would first remove outliers. And if
 > that I report in the Excel sheet would be probably larger. And therefore, you
 would get a smaller p-value. This right now is just - well, p is .03, it is nothing
 to be - to [?]. It is statistically significant, but not brilliant. But yeah, that is a
+
+# ulr
+
+> So, not just the means, but all data. So, I thought if I were Diederik Stapel,
+for example, what would I do? I would not just fabricate means, but I would
+fabricate the entire data set. So, I thought, so for every color, I need to have
+a data point, because that is what you will need to upload at least here at my
+university to sort of show that you did not fabricate the data, but that it is
+real. So, I thought, I would create that for that reason. And also I thought,
+maybe if I create the real data point - or all the data points instead of just the
+means, maybe it will look more real instead of if I just come up with a random
+number for the means and standard deviations. So, I thought that would be the
+
+---
+
+> of how to do it. And I also wanted to take into account the correlations between
+means, so I thought, ok if people are faster on average, they will also be faster
+in the incongruent trials. And it makes sense that if people are super fast on
+congruent trials, their standard deviation will also be a bit smaller. Whereas if
+they are very slow, I thought maybe the standard deviation would also be higher.
+
+---
+
+> you are making [?] and it looks to even maybe. I can imagine that. I recently
+read a report about Brian Wansink’s lab that he used really weird averages,
+really weird decimals that couldn’t be existing in two populations. So then
+maybe if the averages are weird or couldn’t be real. I think, maybe when you
+are creating data you might forget about that, but when it happens for real
+that would never occur. So maybe - I wouldn’t know how to detect this, but
+
+---
+
+> standardized task that could only be done in one way, if the means were really
+off, that would be a sign. Or if the standard deviations would be really off, that
+would be a sign. Or if the correlations would be off. So, for example, I think the
+congruent and incongruent should be correlated highly because if you are faster
+on average then you will also still be relatively fast in the incongruent trials. So
+
+---
+
+> means. So then I thought: Ok, so it is a within-design. So, how do I simulate
+random data that is also correlated with other data? So, then I googled a bit
+about how to do that. So, then it worked. So, I could create data – or simulate
+data without typing it in by hand that is correlated .8 – as I wanted or as I
+expected. The problem was that the standard deviations didn’t correlate with
+the latencies of the congruent trials. So, then I tried to make that work as well.
+So, I used a specific formula so that it would also correlate. So then it worked
+but it messed up the rest of my data. So, it stopped looking nice. So, in the
+end, I did have to make a decision about trying better and better to do it, but
+that would take a lot of time. So, in the end, I decided to go with the data set
+I had and sort of manually adjust some numbers, because I couldn’t make the
+correlations that I wanted with what I got. But so I did take it into account.
+
+---
+
+> check like with a histogram like how they are distributed. There are so many
+things I didn’t check and now I think I could have done a better job. That is
+
+---
+
+> P: Yes, so I tried a few different methods to generate random data that was
+correlated but also on average 50 milliseconds higher in the incongruent condition
+than in the congruent condition. Because I used different methods to try it –
+
+---
+
+> they do to sort of detect it to really build a better science. I also notice with my
+students that we always tell them, yeah you have to collect participants and if
+you fabricate your own data, we can detect it. So really recruit your participants.
+We use it as a way to scare them to be sure that it is real data and not fabricated
+data. And, it would be nice if we could actually sort of check in a way if data is
+fabricated or not. Not only for our students, but for everyone. At the same time,
+you would hope it is not necessary. So, you wouldn’t want it to be important.
+So that is one of the ways – one of the reasons I wanted to participate because I
+do think that it is important. So maybe, getting better at detecting fabricated
+
+---
+
+> P: Yeah, one thing is that maybe I really tried to do it by simulating data using
+sort of random numbers, but it was so difficult that I really – I changed numbers
+by hand and I – now that I think of it maybe that’s the way that most people
+if they fabricate data that is how they would do it. They wouldn’t do it with
+some fancy computer program, but just do it by hand maybe. So, yeah, so that
