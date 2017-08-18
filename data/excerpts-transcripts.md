@@ -1270,3 +1270,134 @@ it is not real.
 really important that you guys have data from real fabrications in order to test
 some methods. Because I think that type of methodological research is not done
 very often. So, I think it is really relevant.
+
+# tyo
+
+> P: Yes. Yeah, because you want to have natural looking data. Yeah, that is
+definitely made me a bit more careful in fabricating this particular data set. I
+mean the manual (?) approach is that you can try but I decided to go for more
+the model-based approach. In the end, I went with a very simple model but I
+really explored some options there.
+
+---
+
+> P: Ehm, well, if you look at this particular task, looking at the amount of time
+to do this properly, it probably would have been faster to just run a Stroop task
+via MTurk and submit that data. So fabricate the data fabrication.
+
+---
+
+> that something is off. So, that would be also a clear sign of, well, something is
+wrong. So, those are things that I would look at: data that is too good to be
+true, too clean, and data that doesn’t add up.
+
+---
+
+> P: Well, in this particular case, what I did for this Stroop task - you are looking
+at a within-subject design which means that if you look at the variability in
+reaction times for the two conditions within your participants, it should be a
+correlation there. So, that is one thing that I would be looking for. The other
+thing is, the average reaction time should be kind of normal for what you would
+expect from a student population. The magnitude of the effect should be kind
+of in the range that you expect from previously published literature. So that
+is generally what would look like - make data look more trustworthy. Another
+
+---
+
+> P: Yeah, the standard deviation of . . . yeah, that should be fairly constant
+within participants.
+
+---
+
+> So, I deliberately did not look at p-value, I mean I got a couple of simulated
+data sets when I was fiddling around with really very significant results that
+would - in theory could be true, but in the end, I am now happier with the data
+set that I just gave you with the errors in there. I mean p is .03-ish, but actually
+with an experiment with just 25 participants and only 30 trials, I would not be
+surprised if that is what actually would come out of it.
+
+---
+
+> effect added up there. So, I had my 11 participants, I took the parameters from
+those 11 participants, and I sort of made random participants based on those
+parameters. So, I can also give you an excerpt of the Matlab code I used for
+that. But, basically, the entire process is for each fabricated participant, pick
+the parameters of a real one, draw random numbers based on those parameters
+for the congruent set and then for the incongruent set look at the error rate of
+that individual participant - or simulated participant - simulate if there is going
+to be an error - yes or no - if there is an error take congruent reaction time, if
+there is no mistake then take the congruent reaction time, add the Stroop effect,
+of course, with noise added to that and that is your incongruent reaction time.
+So, what this procedure does is it gives you a pretty natural looking data set
+but also consistency within participants. In particular, if you look at things like
+a speed-accuracy-tradeoff and things like that, so what I have gotten here, for
+example, that my fastest fake participant also makes the most mistakes. So,
+in terms of decreasing Stroop effect, because there are actual mistakes in the
+data set. So, by doing that you actually have quite a bit of internal consistency
+within your simulated participants. The only downside is I actually had only 11
+participants in my - in the data set that I could find so fast, so quickly. It sort of
+
+---
+
+> P: Yes. Like I said, I have a data set which is by now over 10 years old. It is a
+data set in which participants – it is (?) the [REDACTED] data set of which I
+am not 100 percent sure if it is actually completely genuine, but have all the
+reasons to believe it is. So, this is a very simple experiment where participants
+have 3 possible colors and congruent and incongruent conditions. 11 participants
+participated in this experiment and I only looked at the baseline data. So, this is
+a Stroop task which they did before any kind of [?] stimulation whatsoever. It is
+an average of from the top (?) - we had 100 trials, 50 congruent, 50 incongruent,
+and like I said 11 participants. So for each participant, I computed mean,
+standard deviation of the - mean and standard deviation of the congruent trials,
+same for the incongruent trials. I computed the mean Stroop effect, standard
+deviation of the Stroop effect, and the percentage of errors per participant.
+So, for 11 participants, I had these parameters. Subsequently, I simulated my
+25 fake participants by for each participant randomly selecting one of my 11
+models. And then based on these model parameters, first create 30 congruent
+trials and - let me see if there is anything interesting in my notes - yes, the
+30 congruent trials were simply created by drawing a number from a standard
+normal distribution with standard deviation - or a normal distribution with
+standard deviation of that particular model participant and the mean of that
+particular model participant. Now, for the incongruent trials, I assumed that
+people would make mistakes. So, I assumed that people would not make mistakes
+for the congruent trials, I assumed they would make mistakes for the incongruent
+trials. So, for each incongruent trial, I first randomly decided if this would be
+a mistake trial or not by comparing a random number to the model’s error
+rate. So, you draw a random number between 0 and 1. If it is smaller than
+.07 or .10, then it is a mistake. Otherwise, it is a correct trial. In the case of
+a mistake, I simulated the reaction time of that trial similarly to a congruent
+trial. So, that is, a random number drawn from a normal distribution with
+standard deviation of the incongruent trial added with the congruent trials. Oh,
+I actually see it could be one step better, one tiny mistake here in the model.
+And . . . there is indeed a tiny mistake there. I don’t think it would matter
+too much, but . . . Ok, then if there was a - if the trial was correct, so that
+means, this is an incongruent trial, so there is Stroop interference here. I used a
+random number with standard deviation of the congruent reaction times [?] the
+congruent reaction times, but added a Stroop interference and again that is a
+random number drawn from a normal distribution with a standard deviation of
+the standard deviation of the Stroop effect and mean of the Stroop effect for
+that individual participant. Then, I rounded these numbers in order to get to
+these rounded numbers of milliseconds. And yeah, that’s it. That is the way I
+computed each of this individual trials. Then per participant, you average that
+and compute the standard deviation. And that is what goes into the excel sheet.
+
+---
+
+> clean data. In the end, reading the instructions, I took them very literally. And
+that is, each participant sees each trial or sees 30 trials of each condition. So,
+that is in the end what I simulated and I included the error trials and I did not
+get rid of the error trials, but that is something that [?] struck me after working
+on it for a bit. And I thought, no, I should not be using the cleaned data that is
+
+---
+
+> if you want to know something about a proper fit of parameters. Second, it was
+not directly clear from the data sheet what kind of cleaning of the data would we
+apply. If you look at the data I (?) submitted, that was completely uncleaned
+data. If it was for an actual experiment, I would first remove outliers. And if
+
+---
+
+> that I report in the Excel sheet would be probably larger. And therefore, you
+would get a smaller p-value. This right now is just - well, p is .03, it is nothing
+to be - to [?]. It is statistically significant, but not brilliant. But yeah, that is a
