@@ -1503,6 +1503,49 @@ four variables with the means that were similar to the means that I observed in
 the empirical data set that I download from the internet and the same applies
 to the covariance structure.
 
+# z26
+
+> widespread. And, I think I have a very simple – because I have never done data
+fabrication and I felt really uncomfortable doing it to be honest. So, I didn’t
+
+---
+
+> P: Well, it was quite random. So, I just thought, perhaps someone could have a
+higher than average reaction time, then I sort of made the standard deviation
+smaller. Some who may did the other way around where I had higher standard
+deviations so to make it seem like not consistent, like everyone is different. For
+example. Does that make sense?
+
+---
+
+> read like – I didn’t want to spend more than 30 minutes or so. Of course, you
+could spend more time, but then I didn’t want to. Knowing me I would just go
+and dig into the literature and it would take too much time. And then I really
+felt very uncomfortable doing it. [?] this data fabrication really influenced me
+how I could fabricate data.
+
+---
+
+> P: Oh, yeah, I did it completely myself. So, basically, like I said, I spread it out
+over two days. Once I got bored on the first day with coming up with numbers
+– it was sometimes very hard to come up with numbers all in one go – I went
+
+---
+
+> I: And did you repeatedly fabricate data until you were satisfied with the results?
+
+> P: No. Because as long as I saw that I supported the hypothesis and it was in
+the right direction, then I didn’t want to go on – typing too much of the data. I
+felt very uncomfortable. If I had to do it again, it would be torture to me.
+
+---
+
+> P: It was – for me, it was. I wouldn’t say torture but it was really difficult. I
+didn’t know how to approach it. I mean the only way I could think is looking at
+other papers. I mean I didn’t think of looking at data or fabricated data because
+this isn’t an area I am very familiar with and yeah, so then it was very difficult
+for me to come up with the data.
+
 ---
 
 > 
