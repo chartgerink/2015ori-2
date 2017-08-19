@@ -1484,3 +1484,25 @@ sort of random numbers, but it was so difficult that I really – I changed numb
 by hand and I – now that I think of it maybe that’s the way that most people
 if they fabricate data that is how they would do it. They wouldn’t do it with
 some fancy computer program, but just do it by hand maybe. So, yeah, so that
+
+# yty
+
+> P: Well, I have written it down in a script. So, here I see: So, first, I downloaded
+the data set, then I inspected the empirical data set by looking at histograms and
+scatter plots and looking at means, variances, and covariances, and the ranges
+also. Then, I removed one outlier. And then I started fabricating the data set.
+. . . It’s actually the same as what we just discussed, but I just repeated it.
+
+---
+
+> I: And how did you take these into account?
+P: I used a random number generator in R called - from the mvtnorm package
+and the function is called rmvnorm and you can simulate - randomly simulate
+data with a certain mean structure and covariance structure. So, I simulated
+four variables with the means that were similar to the means that I observed in
+the empirical data set that I download from the internet and the same applies
+to the covariance structure.
+
+---
+
+> 
