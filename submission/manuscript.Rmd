@@ -19,6 +19,40 @@ bibliography: ../bibliography/library.bib
 
 # Introduction
 
+Cases of data fabrication in research often peak the interest of people in research and beyond, where many aim to understand why, what, or how data were fabricated. 
+For reasons why researchers fabricate data, some look at systemic origins (i.e., the bad barrel argument), such as the highly competitive research system [@10.1172/JCI36371;10.1038/521259a], whereas others look to personality traits that might be predictive of likelihood to commit misconduct [i.e., the bad-apple argument; @10.1038/534173a]. 
+What was fabricated (i.e., which results) is often a question that drives scientific integrity committees established to investigate the case in order to correct the scientific record.
+
+How data are fabricated often remains puzzling, because of biased knowledge of cases and lack of first-hand information on data fabrication. 
+Those data fabrication strategies that are most effective by avoiding detection are not available for self-evident reasons: they avoid detection (i.e., discovery bias). 
+Moreover, not only are the discovered cases highly selective, those that are discovered often do not result in confessions supplemented by explicit descriptions of the data fabrication strategies applied. 
+For example, Diederik Stapel confessed to having fabricated data for over a decade and wrote a book about the process [@stapel2012ontsporing]. 
+However, rarely does he describe how he fabricated data in sufficient detail to be of value for research on data fabrication strategies. 
+Nonetheless, he is one of the few cases that includes some description, albeit just broad strokes. For example, the following is a small excerpt from his book [@stapel2012ontsporing;@apsstapel]
+
+>I preferred to do it at home, late in the evening, when everyone was asleep. I made myself some tea, put my computer on the table, took my notes from my bag, and used my fountain pen to write down a neat list of research projects and effects I had to produce ... Subsequently I began to enter my own data, row for row, column for column ... 3, 4, 6, 7, 8, 4, 5, 3, 5, 6, 7, 8, 5, 4, 3, 3, 2. When I was finished, I would do the first analyses. Often, these would not immediately produce the right results. Back to the matrix and alter data. 4, 6, 7, 5, 4, 7, 8, 2, 4, 4, 6, 5, 6, 7, 8, 5, 4. Just as long until all analyses worked out as planned. (p. 167)
+
+Moreover, when scientific integrity committees investigate for data fabrication, rarely will they be able to conclusively state how data were fabricated. 
+Some data fabrication strategies might be obvious if the raw data are available (e.g., copy-pasting responses), whereas others will be less obvious (e.g., multivariate modeling of the observed variables for the desired outcomes). 
+Moreover, for many fabricated results there is multiplicity in how data can be fabricated to yield the resulting data set. 
+That is, for each data fabrication strategy that yields the observed data set, there will be another data fabrication strategy that also yields that exact data set, but is substantively different in its approach. 
+As such, second-hand information about data fabrication offers relatively little evidence on how data are actually fabricated by researchers, only possibilities.
+
+As such, we have no explicit and first-hand knowledge about how researchers fabricate data that is not confounded by discovery bias. 
+Data fabrication in a controlled environment, with all cases known, rarely occurs. 
+As far as we know, there are only two studies that explicitly asked participants to fabricate research data [@10.1080/02664760601004940;@10.1080/08989629508573866;@10.1186/1471-2288-3-18], where only one of those specifically asked researchers to fabricate research data [@10.1186/1471-2288-3-18]. 
+However, none of these studies subsequently asked participants to describe how they fabricated the data, leaving us none the wiser with respect to how data were in fact fabricated. 
+
+Learning more about how researchers actually fabricate data in controlled settings is useful to further understand and detect data fabrication in uncontrolled settings. 
+If detection mechanisms focus on detecting the effects of copy-pasting on summary results, but nobody actually uses copy-pasting when fabricating results, that detection mechanism is not grounded in reality. 
+Moreover, it is likely there is high variability in how researchers fabricate data, which could result in foregone detection mechanisms. 
+For example, if copy-pasting is used and we can detect when that happens, we might still miss other data fabrication strategies that are also used. 
+Qualitative information would provide a first-hand insight into how data are fabricated and could provide fruitful avenues for the development of new statistical tools to detect data fabrication. 
+
+In this report, we qualitatively assess the data fabrication strategies that actual researchers used to fabricate data in one of our controlled studies [@2015ori-1]. 
+Based on the transcripts of the interviews we conducted [@10.5281/zenodo.832490], we try to learn more about the observed data fabrication strategies. 
+Moreover, we combine the observed data fabrication strategies with results from various statistical tools to detect data fabrication, in order to assess whether certain data fabrication characteristics cause better or worse detection.
+
 # Methods
 
 # Results
