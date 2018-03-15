@@ -1,3 +1,20 @@
+<!--
+title: 'Understanding data fabrication: Qualitative Comparative Analysis (QCA) of
+fabrication strategies'
+author: "CHJ Hartgerink"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output:
+  word_document: default
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    toc_depth: 2
+csl: ../bibliography/apa.csl
+bibliography: ../bibliography/library.bib
+-->
+
+
 # Introduction 
 
 Cases of data fabrication in research often peak the interest of people in research and beyond, where it speaks to the imagination to understand why, what, or how data were fabricated. 
@@ -35,16 +52,16 @@ Moreover, we combine the observed data fabrication strategies with results from 
 
 # Methods
 
-We used transcripts of 28 interviews with researchers who we previously requested to fabricate data in a controlled setting [@10.5281/zenodo.832490]. 
+We used transcripts of 28 interviews with researchers who previously fabricated data in a controlled setting [@10.5281/zenodo.832490]. 
 In these interviews, we asked participating researchers to answer questions separated into five sections. 
 Section 1 pertained to general information about the researcher (e.g., frequent programs used). 
 Section 2 inquired about the time and days spent on fabricating data (e.g., how many hours spent). 
 Section 3 asked the researcher about their general framework with which they fabricated the data (e.g., what makes data look weird according to them).
 Section 4 focused on the specific steps taken to fabricate data (e.g., did they use a (pseudo-)random number generator).
 Section 5 was about the motivations of the researcher to participate in this study and their general assessment of their performance.
-<!-- table for sections? --> 
 
 To recapitulate, the researchers fabricated raw data for a Stroop experiment.
+
 
 # Results
 
