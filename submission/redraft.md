@@ -52,7 +52,7 @@ Moreover, we combine the observed data fabrication strategies with results from 
 
 # Methods
 
-We used transcripts of 28 interviews with researchers who previously fabricated data in a controlled setting [@10.5281/zenodo.832490]. 
+We used transcripts of 28 interviews with researchers who we previously asked to fabricate data in a controlled setting [available at @10.5281/zenodo.832490]. 
 In these interviews, we asked participating researchers to answer questions separated into five sections. 
 Section 1 pertained to general information about the researcher (e.g., frequent programs used). 
 Section 2 inquired about the time and days spent on fabricating data (e.g., how many hours spent). 
@@ -60,8 +60,16 @@ Section 3 asked the researcher about their general framework with which they fab
 Section 4 focused on the specific steps taken to fabricate data (e.g., did they use a (pseudo-)random number generator).
 Section 5 was about the motivations of the researcher to participate in this study and their general assessment of their performance.
 
-To recapitulate, the researchers fabricated raw data for a Stroop experiment.
+To recapitulate, we previously asked these 28 researchers to fabricate raw data for a Stroop experiment [see Figure 1; @stroop1935]. 
+In short, a Stroop experiment is typically a within-subjects experiment with two conditions measuring response times: (1) congruent (e.g., the word 'red' is presented in red) and (2) incongruent (e.g., the word 'red' is presented in green). 
+We asked the participating researchers to fabricate response times for 25 participants, such that there was a statistically significant effect between conditions (i.e., a Stroop effect). 
+Using these fabricated data, we tested whether statistical methods could help  separate fabricated data sets from (assumably) genuine datasets from Many Labs 3 [[https://osf.io/n8xa7/](https://osf.io/n8xa7/); @10.1016/j.jesp.2015.10.012].
 
+![Example of a filled in template spreadsheet used in the fabrication process. Respondents fabricated data in the yellow cells and green cells, which were used to compute the results of the hypothesis test of the condition effect. If the fabricated data confirm the hypotheses, a checkmark appeared. This template is available at [https://osf.io/2qrbs/](https://osf.io/2qrbs/).](../figures/spreadsheet2.png)
+
+For each of the 28 transcripts, the first author coded data fabrication characteristics. Based on a first-reading of all transcripts, we identified five key data fabrication characteristics. We also identified ten participant characteristics. Subsequently, the first author As such, the first author read through three transcripts to qualitatively assess various data fabrication characteristics available in the transcripts. Additionally, we coded characteristics of the fabricator's experience, which we include in the data set ([osf.io/xxxx](https://osf.io/xxxx)) for completeness but do not analyze considering these are not part of the data fabrication strategy per se.
+
+<!-- https://raw.githubusercontent.com/chartgerink/2015ori-2/c706d77e4d85daa285624028d379d7b9b00bd1d0/submission/manuscript.Rmd -->
 
 # Results
 
