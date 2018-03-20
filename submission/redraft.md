@@ -14,6 +14,9 @@ csl: ../bibliography/apa.csl
 bibliography: ../bibliography/library.bib
 -->
 
+```{r, echo = FALSE}
+library(QCA)
+```
 
 # Introduction 
 
@@ -88,18 +91,56 @@ The pattern `0-0-1` (second row) is observed $>1$ times and has conflicting (`C`
 The pattern `0-1-0` (third row) is not observed and therefore has no information about the outcome (i.e., a logical remainder; `?`).
 A truth table can subsequently be minimized to determine necessary and sufficient conditions for the outcome to be present or absent.
 
-We identified five general data fabrication characteristics for our QCA. Each unique combination of these data fabrication characteristics makes up a data fabrication strategy, for our purposes. We limited ourselves to five characteristics, considering that 2^*n* strategies would be possible. In other words, we balanced the number of transcripts (i.e., 28) to the number of unique data fabrication strategies possible (i.e., $2^4=16$; $2^5=32$; $2^6=64$). We coded whether (1) the participant prepared for the data fabrication (e.g., by reading literature on detecting data fabrication); (2) the participant used a (pseudo-)Random Number Generator (RNG) in fabricating the data; (3) the participant used assumably genuine Stroop data; (4) the participant duplicated or transformed data; (5) the participant checked the fabricated data for detectibility. 
+```{r, echo = FALSE}
+data(LC)
+LC <- LC[, -(1:2)]
+names(LC) <- c(sprintf('char%s', 1:3), 'outcome')
+ttLC <- truthTable(LC, "outcome")
+ttLC$tt$OUT[2] <- 'C'
+df <- ttLC$tt[,1:4]
 
-The first author coded each  these unique response patterns are compared to an outcome measure and analyzed 
+knitr::kable(df, caption="Example of a truth table as used in crisp set Qualitative Comparative Analysis (csQCA). The outcome measure is the dependent variable, where the various patterns of the characteristics are used to determine under what conditions the outcome is observed. A `?` indicates that pattern was not observed and therefore the outcome is unknown; a `C` indicates that this pattern was observed >1, but that both outcomes occurred, creating a conflict in csQCA.")
+```
 
-<!-- Additionally, we coded characteristics of the fabricator's experience, which we include in the data set ([osf.io/xxxx](https://osf.io/xxxx)) for completeness but do not analyze considering these are not part of the data fabrication strategy per se. -->
-<!-- For each of the 28 transcripts, the first author coded data fabrication- and participant characteristics. Based on a first-reading of all transcripts, we identified five key data fabrication characteristics. We also identified ten participant characteristics. Subsequently, the first author As such, the first author read through three transcripts to qualitatively assess various data fabrication characteristics available in the transcripts. Additionally, we coded characteristics of the fabricator's experience, which we include in the data set ([osf.io/xxxx](https://osf.io/xxxx)) for completeness but do not analyze considering these are not part of the data fabrication strategy per se. -->
+Based on the interview protocol ([osf.io/xxxx](https://osf.io/xxxx)), we identified five general data fabrication characteristics for our QCA. 
+Each unique combination of data fabrication characteristics makes up a data fabrication strategy. 
+We limited ourselves to five characteristics, considering that 2^*n* strategies would be possible. 
+In other words, we balanced the number of transcripts (i.e., 28) to the number of unique data fabrication strategies possible (i.e., $2^4=16$; $2^5=32$; $2^6=64$). 
+We coded whether 
+(1) the participant prepared for the data fabrication (e.g., by reading literature on detecting data fabrication); 
+(2) the participant used a (pseudo-)Random Number Generator (RNG) in fabricating the data; 
+(3) the participant used assumably genuine Stroop data; 
+(4) the participant duplicated or transformed data; 
+(5) the participant checked the fabricated data for detectibility. 
+The first author coded each of these five data fabrication characteristics for all of the 28 transcripts. 
+Additionally, we coded ten participant characteristics (e.g., PhD attained, self-reported statistical knowledge; further described at [osf.io/xxxx](https://osf.io/xxxx) and available at [osf.io/xxxx](https://osf.io/xxxx)). 
+We note that these data fabrication characteristics are inherently multiplicitous, hence, we do not know how much we will learn from the QCA. 
 
-Given that each of data fabrication characteristic still has a diverse set of implementations, we also 
+As outcome measures, we included whether the researcher's fabricated data was detected as such, by taking the results from the three best statistical methods to detect data fabrication [@REF]. 
+In our original project, we included XX tests to detect data fabrication and included only the top three here, based on their Area Under the Curve value. 
+We could assess these AUCs based on (assumably) genuine data from the Many Labs 3 initiative [@10.1016/j.jesp.2015.10.012]. 
+As a result, we included as outcome measures the results of the detection methods based on 
+(1) ?
+(2) ?
+(3) ?
+We did not include the other methods, which consisted of (amongst others) X, X, and X. 
+<!-- how did we determine this -->
+<!-- which methods are this -->
+<!-- which methods didn't make it -->
 
-<!-- Another relevant aspect of truth tables, as depicted in Table 2 by C, is that of conflicting outcomes. Conflicting outcomes occur when one pattern occurs for two different cases, but yields different outcomes. For our case, that means that the same pattern results in both detection and non-detection of data fabrication. Typically, in csQCA, these cases are simply omitted in the analysis (conceptually comparable to listwise deletion) or omitted characteristics are inductively searched for that resolve the conflict (Rihoux & Ragin, 2008). We qualitatively investigate what might cause these conflicting outcomes and present results for both the original five characteristics and the potential additional characteristics in case of conflicting outcomes.
-We used the R package QCA (Dusa, 2007; R Core Team, 2017) for our QCA analysis (see osf.io/XXXX for analysis script). More specifically, we used the outcomes of five different statistical methods to detect data fabrication [as presented in @], with the five characteristics mentioned in Table X as characteristics. We minimized the truth table using the enhanced Quine-McCluskey algorithm [@] for both detecting data as fabricated, and for fabricated data going undetected. As such, we initially conduct ten QCA's, with at most ten more in the case of conflicting outcomes in for all methods. -->
+We conducted three separate csQCA analyses combining the coded data fabrication characteristics with the outcomes of these statistical detection methods. 
+In csQCA, unique combinations with conflicting outcomes are either omitted (similar to listwise deletion) or additional characteristics are inductively added to resolve the conflicting outcomes [@rihoux2008]. 
+Here, we omit conflicting outcomes for analysis and try to qualitatively assess potentially relevant characteristics. 
+We do not run new QCAs because adding additional characteristics quickly increases the state space of unique patterns to 128 (by just adding two) or beyond (512 by adding four). 
+If we would add two characteristics it  would result in maximum coverage of `r round((28/128) * 100, 0)`%; maximum coverage would be `r round((28/512) * 100, 0)`% if we add four characteristics. 
 
+We used the R package `QCA` [@;@] to conduct these csQCAs. 
+For each of the three statistical methods to detect data fabrication, we assessed both sufficient and necessary conditions for detection as well as going undetected. 
+We minimized the truth tables using the enhanced Quine-McCluskey algorithm [@]. 
+Data are available at [osf.io/xxxxx](https://osf.io/xxxxx); analysis code is available at [osf.io/xxxxx](https://osf.io/xxxxx). 
+
+<!-- As such, we minimized the truth tables with the outcome measuresfor both detecting data as fabricated and for fabricated data going undetected. 
+As such, we initially conduct ten QCA's, with at most ten more in the case of conflicting outcomes in for all methods. -->
 <!-- https://raw.githubusercontent.com/chartgerink/2015ori-2/c706d77e4d85daa285624028d379d7b9b00bd1d0/submission/manuscript.Rmd -->
 <!-- 
 # Results
@@ -112,6 +153,6 @@ We used the R package QCA (Dusa, 2007; R Core Team, 2017) for our QCA analysis (
 
 # Author's note
 
-All materials used in this project are available at [https://github.com/chartgerink/2015ori-2](https://github.com/chartgerink/2015ori-2) and are preserved at Zenodo.
+All materials used in this project are available at [https://github.com/chartgerink/2015ori-2](https://github.com/chartgerink/2015ori-2) and are preserved at Zenodo. This project was funded by the Office of Research Integrity (ORI-).
 
 # References
