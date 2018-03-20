@@ -77,10 +77,18 @@ In this paper, we take a two-pronged approach to evaluating the transcripts of t
 
 ## Qualitative Comparative Analysis
 
-In Qualitative Comparative Analysis [QCA; @rihoux2008], qualitative information is deconstructed into general characteristics. 
-<!-- We systematically evaluate how unique combinations of data fabrication characteristics affect the possibility to detect the data fabrication using  crisp set Qualitative Comparative Analysis [csQCA; @rihoux2008]. QCA evaluates qualitative data More specifically, we use crisp set QCA [csQCA; @], where characteristics are coded as present or absent. One of the  -->
+In Qualitative Comparative Analysis [QCA; @rihoux2008], qualitative information is deconstructed into characteristics and related to an outcome measure. 
+In crisp set QCA, which we apply here, these characteristics are binary [e.g., present v absent;@rihoux2008]. 
+Each unique combination of characteristics is regarded as a pattern and is used to assess necessary and sufficient conditions for the binary outcome measure to be present or absent. 
+Using the coded characteristics for each unit of analysis (e.g., participants, group), we compile truth tables. 
+Table xxxxx depicts a fictitious example of a truth table. 
+For each unique combination of characteristics, the range of outcomes is inspected. 
+The pattern `0-0-0` (first row) is observed $\geq1$ times and, in this sample, always leads to the absence of the outcome (vice versa for the last row).
+The pattern `0-0-1` (second row) is observed $>1$ times and has conflicting (`C`) outcomes; both presence and absence occur with this pattern.
+The pattern `0-1-0` (third row) is not observed and therefore has no information about the outcome (i.e., a logical remainder; `?`).
+A truth table can subsequently be minimized to determine necessary and sufficient conditions for the outcome to be present or absent.
 
-We identified five general data fabrication characteristics for our QCA. Each unique combination of these data fabrication characteristics makes up a data fabrication strategy, for our purposes. We limited ourselves to five characteristics, considering that 2^*n* strategies would be possible. In other words, we balanced the amount of transcripts (i.e., 28) to the amount of unique data fabrication strategies possible (i.e., $2^4=16$; $2^5=32$; $2^6=64$). We coded whether (1) the participant prepared for the data fabrication (e.g., by reading literature on detecting data fabrication); (2) the participant used a (pseudo-)Random Number Generator (RNG) in fabricating the data; (3) the participant used assumably genuine Stroop data; (4) the participant duplicated or transformed data; (5) the participant checked the fabricated data for detectibility. 
+We identified five general data fabrication characteristics for our QCA. Each unique combination of these data fabrication characteristics makes up a data fabrication strategy, for our purposes. We limited ourselves to five characteristics, considering that 2^*n* strategies would be possible. In other words, we balanced the number of transcripts (i.e., 28) to the number of unique data fabrication strategies possible (i.e., $2^4=16$; $2^5=32$; $2^6=64$). We coded whether (1) the participant prepared for the data fabrication (e.g., by reading literature on detecting data fabrication); (2) the participant used a (pseudo-)Random Number Generator (RNG) in fabricating the data; (3) the participant used assumably genuine Stroop data; (4) the participant duplicated or transformed data; (5) the participant checked the fabricated data for detectibility. 
 
 The first author coded each  these unique response patterns are compared to an outcome measure and analyzed 
 
@@ -88,6 +96,9 @@ The first author coded each  these unique response patterns are compared to an o
 <!-- For each of the 28 transcripts, the first author coded data fabrication- and participant characteristics. Based on a first-reading of all transcripts, we identified five key data fabrication characteristics. We also identified ten participant characteristics. Subsequently, the first author As such, the first author read through three transcripts to qualitatively assess various data fabrication characteristics available in the transcripts. Additionally, we coded characteristics of the fabricator's experience, which we include in the data set ([osf.io/xxxx](https://osf.io/xxxx)) for completeness but do not analyze considering these are not part of the data fabrication strategy per se. -->
 
 Given that each of data fabrication characteristic still has a diverse set of implementations, we also 
+
+<!-- Another relevant aspect of truth tables, as depicted in Table 2 by C, is that of conflicting outcomes. Conflicting outcomes occur when one pattern occurs for two different cases, but yields different outcomes. For our case, that means that the same pattern results in both detection and non-detection of data fabrication. Typically, in csQCA, these cases are simply omitted in the analysis (conceptually comparable to listwise deletion) or omitted characteristics are inductively searched for that resolve the conflict (Rihoux & Ragin, 2008). We qualitatively investigate what might cause these conflicting outcomes and present results for both the original five characteristics and the potential additional characteristics in case of conflicting outcomes.
+We used the R package QCA (Dusa, 2007; R Core Team, 2017) for our QCA analysis (see osf.io/XXXX for analysis script). More specifically, we used the outcomes of five different statistical methods to detect data fabrication [as presented in @], with the five characteristics mentioned in Table X as characteristics. We minimized the truth table using the enhanced Quine-McCluskey algorithm [@] for both detecting data as fabricated, and for fabricated data going undetected. As such, we initially conduct ten QCA's, with at most ten more in the case of conflicting outcomes in for all methods. -->
 
 <!-- https://raw.githubusercontent.com/chartgerink/2015ori-2/c706d77e4d85daa285624028d379d7b9b00bd1d0/submission/manuscript.Rmd -->
 <!-- 
