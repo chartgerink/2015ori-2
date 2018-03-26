@@ -1,7 +1,7 @@
 ---
 title: 'Understanding data fabrication: Qualitative Comparative Analysis (QCA) of
 fabrication strategies'
-author: "CHJ Hartgerink"
+author: "CHJ Hartgerink, Jan G Voelkel, Jelte M Wicherts, Marcel ALM van Assen"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 output:
   word_document: default
@@ -15,13 +15,13 @@ bibliography: ../bibliography/library.bib
 ---
 
 ```{r, echo = FALSE}
-library(QCA)
+suppressPackageStartupMessages(library(QCA))
 ```
 
 # Introduction 
 
 Cases of data fabrication in research often peak the interest of people in research and beyond, where it speaks to the imagination to understand why, what, or how data were fabricated. 
-For reasons why researchers fabricate data, some look at systemic origins (i.e., the bad barrel argument), such as the highly competitive research system [@10.1172/JCI36371;10.1038/521259a], whereas others look to personality traits that might be predictive of likelihood to commit misconduct [i.e., the bad-apple argument; @10.1038/534173a]. 
+For reasons why researchers fabricate data, some look at systemic origins (i.e., the bad barrel argument), such as the highly competitive research system [@10.1172/JCI36371;@10.1038/521259a], whereas others look to personality traits that might be predictive of likelihood to commit misconduct [i.e., the bad-apple argument; @10.1038/534173a]. 
 What was fabricated (i.e., which results) is often a question that drives scientific integrity committees established to investigate the case in order to correct the scientific record.
 
 How data are fabricated remains puzzling because of incomplete knowledge of cases and lack of first-hand information on data fabrication. 
