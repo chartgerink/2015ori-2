@@ -49,6 +49,13 @@ However, we currently do not even know what methods are used and therefore only 
 As far as we know, only one such study asked participants to fabricate data, but did not investigate how they did so [@10.1136/bmj.331.7511.267].
 Qualitative information would provide a first-hand insight into how data are fabricated and could provide fruitful avenues for the development of new statistical tools to detect data fabrication. 
 
+A better understanding of how researchers fabricate data can assist in developing- and validating tools to detect data fabrication. 
+Previously, researchers developed methods to detect data fabrication in situ. 
+For example, terminal digit analysis was developed as part of the Imanishi-Kari case [@]; testing for excessive amounts of high $p$-values was developed as part of the Fuji case [@]; variance analysis was developed as part of the Smeesters and Sanna cases [@10.1177/0956797613480366]. 
+As such, it seems plausible that development of additional statistical tools can be facilitated by detailed descriptions of data fabrication cases. 
+Validation of such statistical tools is also benefited by detailed descriptions of data fabrication, when those details are less prone to selection bias. 
+By having less biased details (e.g., less detection bias) on how researchers go about fabricating data, it facilitates better contextualized simulations to investigate the efficacy of these statistical tools. 
+After all, the results of these simulations are only as good as the set of data fabrication behaviors that are captured in the simulation. 
 <!-- Er mist nog 1 superbelangrijke alinea, nl over waarom het zo belangrijk is te weten hoe men data fabriceert.  -->
 <!-- Ik zou dit in aparte alinea zetten en oppompen (pompen pompen!) – belang van weten HOE moet duidelijk zijn. Geef ook een voorbeeld of voorbeelden hoe dat dan kan helpen.
 Ontwikkelen verschillende technieken te detecteren
