@@ -135,28 +135,45 @@ We did not include the other methods, which consisted of (amongst others) X, X, 
 <!-- which methods are this -->
 <!-- which methods didn't make it -->
 
-We conducted three separate csQCA analyses combining the coded data fabrication characteristics with the outcomes of these statistical detection methods. 
-In csQCA, unique combinations with conflicting outcomes are either omitted (similar to listwise deletion) or additional characteristics are inductively added to resolve the conflicting outcomes [@rihoux2008]. 
+We conducted separate csQCA analyses combining the coded data fabrication characteristics with the outcomes of these statistical detection methods. 
+Usually, unique combinations in csQCA with conflicting outcomes are either omitted (comparable to listwise deletion) or additional characteristics are inductively added to resolve the conflicting outcomes [@rihoux2008]. 
 Here, we omit conflicting outcomes for analysis and try to qualitatively assess potentially relevant characteristics. 
-We do not run new QCAs because adding additional characteristics quickly increases the state space of unique patterns to 128 (by just adding two) or beyond (512 by adding four). 
-If we would add two characteristics it  would result in maximum coverage of `r round((28/128) * 100, 0)`%; maximum coverage would be `r round((28/512) * 100, 0)`% if we add four characteristics. 
+We do not run additional QCAs because adding additional characteristics quickly increases the state space of unique patterns to 128 (by just adding two) or beyond (512 by adding four). 
+If we would add two characteristics it  would result in maximum coverage of `r round((28/128) * 100, 0)`% by our participants; maximum coverage would be `r round((28/512) * 100, 0)`% if we add four characteristics. 
 
-We used the R package `QCA` [@;@] to conduct these csQCAs. 
+We used the R package `QCA` [@r-core;@10.1016/j.jbusres.2007.01.002] to conduct these csQCAs. 
 For each of the three statistical methods to detect data fabrication, we assessed both sufficient and necessary conditions for detection as well as going undetected. 
-We minimized the truth tables using the enhanced Quine-McCluskey algorithm [@]. 
+We minimized the truth tables using the enhanced Quine-McCluskey algorithm [@10.1002/j.1538-7305.1956.tb03835.x]. 
 Data are available at [osf.io/xxxxx](https://osf.io/xxxxx); analysis code is available at [osf.io/xxxxx](https://osf.io/xxxxx). 
 
-<!-- As such, we minimized the truth tables with the outcome measuresfor both detecting data as fabricated and for fabricated data going undetected. 
-As such, we initially conduct ten QCA's, with at most ten more in the case of conflicting outcomes in for all methods. -->
 <!-- https://raw.githubusercontent.com/chartgerink/2015ori-2/c706d77e4d85daa285624028d379d7b9b00bd1d0/submission/manuscript.Rmd -->
-<!-- 
+
 # Results
 
 ## Qualitative summaries
 
-## Qualitative Comparative Analysis
+For each participant, we provide a qualitative summary of the interview with selected quotes. 
+These summaries can be read separately from each other and provide detailed descriptions of our participants' fabrication process. 
+We share these summaries here and not in an appendix because this paper focuses on a qualitative evaluation of the data fabrication strategies applied. 
+In Table xxxx we present an overview of the participant characteristics with hyperlinks to the raw transcript files [@10.5281/zenodo.832491] and to the summaries provided in this manuscript (only available in the HTML version of this manuscript).
 
-# Discussion -->
+| ID |  
+| -- |
+
+<!-- Insert table with participant characteristics here -->
+
+### Participant 0jg
+
+
+
+## csQCA
+
+```{r}
+
+```
+
+
+<!-- # Discussion -->
 
 # Author's note
 
