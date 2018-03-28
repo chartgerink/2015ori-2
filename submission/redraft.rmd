@@ -155,14 +155,28 @@ Data are available at [osf.io/xxxxx](https://osf.io/xxxxx); analysis code is ava
 For each participant, we provide a qualitative summary of the interview with selected quotes. 
 These summaries can be read separately from each other and provide detailed descriptions of our participants' fabrication process. 
 We share these summaries here and not in an appendix because this paper focuses on a qualitative evaluation of the data fabrication strategies applied. 
-In Table xxxx we present an overview of the participant characteristics with hyperlinks to the raw transcript files [@10.5281/zenodo.832491] and to the summaries provided in this manuscript (only available in the HTML version of this manuscript).
+In Table xxxx we present an overview of the participant characteristics with hyperlinks to the raw transcript files [@10.5281/zenodo.832491] and to the summaries provided in this manuscript (only available in the HTML version of this manuscript). 
+We provide descriptions of blocks 2-5 of the interviews (see [Methods](#methods) for a summary of the blocks).
 
-| ID |  
-| -- |
+| ID |  Summary | PhD attained | Stroop experience | Software knowledge | Statistics knowledge | 
+| -- | ----------- | ------------ | ----------------- | ------------------ | | -------------------- |
+[0jg](https://zenodo.org/record/832491/files/0jg.md) | [Link](#participant-0jg) | No | No | [ matlab, R ] | 8 | 
 
+<!-- https://zenodo.org/record/832491 -->
 <!-- Insert table with participant characteristics here -->
 
+<!-- prep -->
+<!-- fabrication time -->
+<!-- fabrication framework -->
+<!-- fabrication specifics -->
+<!-- fabrication motive -->
+<!-- detection -->
+
 ### Participant 0jg
+
+Prior to fabricating the data, the participant prepared by investigating existing literature on the Stroop task. The preparation by the participant focused on assessing the scales and typical moments (e.g., standard deviations) of the response time measures. This preparation did not span more than half an hour and did not extend to investigating how previous cases of data fabrication were detected ("I thought it was a little bit cheating also to do it").
+
+The participant spent approximately two hours on actually fabricating the data, spanning two days. The majority of the data fabrication took place on the first day and finished on the second day. The participant indicated that this was "not that much effort" from their part and that additional effort could have been put in by trying to investigate how we might go about trying to detect the fabricated data ("it was too much effort to do it").
 
 
 
