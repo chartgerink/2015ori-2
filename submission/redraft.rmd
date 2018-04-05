@@ -154,9 +154,12 @@ Data are available at [osf.io/xxxxx](https://osf.io/xxxxx); analysis code is ava
 
 For each participant, we provide a qualitative summary of the interview with selected quotes. 
 These summaries can be read separately from each other and provide detailed descriptions of our participants' fabrication process. 
+Each summary is structured into six paragraphs: (1) how did the participant prepare for data fabrication, (2) how much time did the participant spend fabricating data, (3) what was the general framework with which the participant fabricated data, (4) what are the specifics to the data fabrication process, (5) whether the participant checked the fabricated data for detectability, and (6) what was the motivation to participate.
+Generally, these are descriptions of blocks 2-5 of the original interviews (see [Methods](#methods) for a summary of the blocks).
+In order to remain neutral to the gender of the participant, we address the participant with their pseudonymized ID and with the pronoun 'they'.
 We share these summaries here and not in an appendix because this paper focuses on a qualitative evaluation of the data fabrication strategies applied. 
 In Table xxxx we present an overview of the participant characteristics with hyperlinks to the raw transcript files [@10.5281/zenodo.832491] and to the summaries provided in this manuscript (only available in the HTML version of this manuscript). 
-We provide descriptions of blocks 2-5 of the interviews (see [Methods](#methods) for a summary of the blocks).
+
 
 | ID |  Summary | PhD attained | Stroop experience | Software knowledge | Statistics knowledge | 
 | -- | ----------- | ------------ | ----------------- | ------------------ | | -------------------- |
@@ -169,16 +172,29 @@ We provide descriptions of blocks 2-5 of the interviews (see [Methods](#methods)
 <!-- fabrication time -->
 <!-- fabrication framework -->
 <!-- fabrication specifics -->
-<!-- fabrication motive -->
 <!-- detection -->
+<!-- fabrication motive -->
 
 ### Participant 0jg
 
-Prior to fabricating the data, the participant prepared by investigating existing literature on the Stroop task. The preparation by the participant focused on assessing the scales and typical moments (e.g., standard deviations) of the response time measures. This preparation did not span more than half an hour and did not extend to investigating how previous cases of data fabrication were detected ("I thought it was a little bit cheating also to do it").
+Prior to fabricating the data, Participant `0jg` prepared by investigating existing literature on the Stroop task. The preparation by Participant `0jg` focused on assessing the scales and typical moments (e.g., standard deviations) of the response time measures. This preparation did not span more than half an hour and did not extend to investigating how previous cases of data fabrication were detected ("I thought it was a little bit cheating also to do it [check how data fabrication could be detected]").
 
-The participant spent approximately two hours on actually fabricating the data, spanning two days. The majority of the data fabrication took place on the first day and finished on the second day. The participant indicated that this was "not that much effort" from their part and that additional effort could have been put in by trying to investigate how we might go about trying to detect the fabricated data ("it was too much effort to do it").
+Participant `0jg` spent approximately two hours on fabricating the data, on two separate days. The majority of the data fabrication took place on the first day and finished on the second day. Participant `0jg` also indicated that this was "not that much effort" from their part and that additional effort could have been put in by trying to investigate how we might go about trying to detect the fabricated data ("it was too much effort to do it").
+
+In order to make the data look less fabricated and more genuine, `0jg` indicated that the data should not follow the hypotheses or theory absolutely. In their own words, data would look more fabricated "if the difference between the conditions is equal for all participants - or between conditions" and "probably if it is [...] too normally distributed". `0jg` also indicated that the test statistic for which they fabricated data affected the decisions made in the data fabrication process; "I noticed that in the [...] t-test that you did [...] the individual scores don’t matter [...] I didn’t pay too much attention to the size of the individual differences because I thought, [...] this doesn’t really matter anyway".
+
+`0jg` decided to fabricate the data by (1) taking a mean response time for one condition, (2) determine a condition effect, and (3) jitter the mean to get to the scores for individual fabricated participants. As such, "I had a mean of 545 with a difference between the conditions of 125 milliseconds." Subsequently, `0jg` added noise by drawing from a standard normal distribution multiplied by a constant. "I took a difference of 6 meaning that the congruent was 6 lower (so 67) than the incongruent [which was?] 73 as a standard deviation. So I drew from a standard normal distribution and multiplied it with the standard deviation." Effectively, for the congruent condition noise was added by drawing from $N~(0,67)$ and for the incongruent condition drawn from $N(0,73)$.
 
 
+
+
+
+
+<!-- detection -->
+
+
+<!-- fabrication motive -->
+As motivation to participate, `0jg` indicated various reasons. The goal of the study was "fun to do" and they found how to fabricate data "an interesting question" to think about.
 
 ## csQCA
 
