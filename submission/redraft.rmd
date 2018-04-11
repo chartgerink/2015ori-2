@@ -154,26 +154,26 @@ Data are available at [osf.io/xxxxx](https://osf.io/xxxxx); analysis code is ava
 
 For each participant, we provide a qualitative summary of the interview with selected quotes. 
 These summaries can be read separately from each other and provide detailed descriptions of our participants' fabrication process. 
-Each summary is structured into six paragraphs: (1) how did the participant prepare for data fabrication, (2) how much time did the participant spend fabricating data, (3) what was the general framework with which the participant fabricated data, (4) what are the specifics to the data fabrication process, (5) whether the participant checked the fabricated data for detectability, and (6) what was the motivation to participate.
+Each summary is structured into five paragraphs: (1) how did the participant prepare for data fabrication, (2) how much time did the participant spend fabricating data, (3) what was the general framework with which the participant fabricated data, (4) what are the specifics to the data fabrication process, and (5) whether the participant checked the fabricated data for detectability.
 Generally, these are descriptions of blocks 2-5 of the original interviews (see [Methods](#methods) for a summary of the blocks).
 In order to remain neutral to the gender of the participant, we address the participant with their pseudonymized ID and with the pronoun 'they'.
 We share these summaries here and not in an appendix because this paper focuses on a qualitative evaluation of the data fabrication strategies applied. 
 In Table xxxx we present an overview of the participant characteristics with hyperlinks to the raw transcript files [@10.5281/zenodo.832491] and to the summaries provided in this manuscript (only available in the HTML version of this manuscript). 
 
 
-| ID |  Summary | PhD attained | Stroop experience | Software knowledge | Statistics knowledge | 
+| ID |  Summary | PhD attained | Stroop experience | Software knowledge | Statistics knowledge [self-assessed, 1 (worst) - 10 (best)] | 
 | -- | ----------- | ------------ | ----------------- | ------------------ | | -------------------- |
 [0jg](https://zenodo.org/record/832491/files/0jg.md) | [Link](#participant-0jg) | No | No | [ matlab, R ] | 8 | 
 
-<!-- https://zenodo.org/record/832491 -->
-<!-- Insert table with participant characteristics here -->
+<!-- https://zenodo.org/record/832491/files/ -->
+
+<!-- for each participant -->
 
 <!-- prep -->
 <!-- fabrication time -->
 <!-- fabrication framework -->
 <!-- fabrication specifics -->
 <!-- detection -->
-<!-- fabrication motive -->
 
 ### Participant 0jg
 
@@ -183,18 +183,12 @@ Participant `0jg` spent approximately two hours on fabricating the data, on two 
 
 In order to make the data look less fabricated and more genuine, `0jg` indicated that the data should not follow the hypotheses or theory absolutely. In their own words, data would look more fabricated "if the difference between the conditions is equal for all participants - or between conditions" and "probably if it is [...] too normally distributed". `0jg` also indicated that the test statistic for which they fabricated data affected the decisions made in the data fabrication process; "I noticed that in the [...] t-test that you did [...] the individual scores don’t matter [...] I didn’t pay too much attention to the size of the individual differences because I thought, [...] this doesn’t really matter anyway".
 
-`0jg` decided to fabricate the data by (1) taking a mean response time for one condition, (2) determine a condition effect, and (3) jitter the mean to get to the scores for individual fabricated participants. As such, "I had a mean of 545 with a difference between the conditions of 125 milliseconds." Subsequently, `0jg` added noise by drawing from a standard normal distribution multiplied by a constant. "I took a difference of 6 meaning that the congruent was 6 lower (so 67) than the incongruent [which was?] 73 as a standard deviation. So I drew from a standard normal distribution and multiplied it with the standard deviation." Effectively, for the congruent condition noise was added by drawing from $N~(0,67)$ and for the incongruent condition drawn from $N(0,73)$.
-
-
-
-
-
+`0jg` decided to fabricate the data by (1) taking a mean response time for one condition, (2) determine a condition effect, and (3) jitter the mean to get to the scores for individual fabricated participants. As such, "I had a mean of 545 with a difference between the conditions of 125 milliseconds." Subsequently, `0jg` added noise by drawing from a normal distributions with different variances. For the variances, "I took a difference of 6 meaning that the congruent was 6 lower (so 67) than the incongruent [which was?] 73". Effectively, for the congruent condition noise was added by drawing from $N~(0,67)$ and for the incongruent condition drawn from $N(0,73)$.
 
 <!-- detection -->
+Upon fabricating the data, the participant checked for (1) too large effect sizes, (2) minimal deviation of the preconceived standard deviations, and (3) odd histograms. As a result, the participant repeated the data fabrication several times, but "did not after each time inspect [the] data thoroughly. I just looked it at [sic] and thought well, just throw in a different one and go ahead and run it again." These checks were off the cuff and not strictly defined, considering the participant noted that they "kind of had it in the back of my mind [to make it look like real data] all the time but no specific steps for it."
 
-
-<!-- fabrication motive -->
-As motivation to participate, `0jg` indicated various reasons. The goal of the study was "fun to do" and they found how to fabricate data "an interesting question" to think about.
+### Participant 
 
 ## csQCA
 
