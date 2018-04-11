@@ -160,14 +160,16 @@ In order to remain neutral to the gender of the participant, we address the part
 We share these summaries here and not in an appendix because this paper focuses on a qualitative evaluation of the data fabrication strategies applied. 
 In Table xxxx we present an overview of the participant characteristics with hyperlinks to the raw transcript files [@10.5281/zenodo.832491] and to the summaries provided in this manuscript (only available in the HTML version of this manuscript). 
 
+<!-- update this table with all characteristics not used in QCA? -->
+<!-- add density plots on data? -->
 
 | ID |  Summary | PhD attained | Stroop experience | Software knowledge | Statistics knowledge [self-assessed, 1 (worst) - 10 (best)] | 
 | -- | ----------- | ------------ | ----------------- | ------------------ | | -------------------- |
-[0jg](https://zenodo.org/record/832491/files/0jg.md) | [Link](#participant-0jg) | No | No | [ matlab, R ] | 8 | 
+| [0jg](https://zenodo.org/record/832491/files/0jg.md) | [Link](#participant-0jg) | No | No | [ matlab, R ] | 8 | 
+| [19e](https://zenodo.org/record/832491/files/19e.md) | [Link](#participant-19e) | No | No | [ r, python ] | 7 | 
+
 
 <!-- https://zenodo.org/record/832491/files/ -->
-
-<!-- for each participant -->
 
 <!-- prep -->
 <!-- fabrication time -->
@@ -175,7 +177,7 @@ In Table xxxx we present an overview of the participant characteristics with hyp
 <!-- fabrication specifics -->
 <!-- detection -->
 
-### Participant 0jg
+### Participant `0jg`
 
 Prior to fabricating the data, Participant `0jg` prepared by investigating existing literature on the Stroop task. The preparation by Participant `0jg` focused on assessing the scales and typical moments (e.g., standard deviations) of the response time measures. This preparation did not span more than half an hour and did not extend to investigating how previous cases of data fabrication were detected ("I thought it was a little bit cheating also to do it [check how data fabrication could be detected]").
 
@@ -188,7 +190,44 @@ In order to make the data look less fabricated and more genuine, `0jg` indicated
 <!-- detection -->
 Upon fabricating the data, the participant checked for (1) too large effect sizes, (2) minimal deviation of the preconceived standard deviations, and (3) odd histograms. As a result, the participant repeated the data fabrication several times, but "did not after each time inspect [the] data thoroughly. I just looked it at [sic] and thought well, just throw in a different one and go ahead and run it again." These checks were off the cuff and not strictly defined, considering the participant noted that they "kind of had it in the back of my mind [to make it look like real data] all the time but no specific steps for it."
 
-### Participant 
+### Participant `19e`
+
+<!-- prep -->
+"I guess I should have. That is a good idea. But I didn't, no."
+"I read a few meta-analyses on the Stroop effect. Hopefully, that gave me some insight. But no, I did not look at the literature on data fabrication itself."
+<!-- fabrication time -->
+* one day
+* 3 hours
+* "I just put a block of - I think - four or six hours in my calender and just devoted it to this thing."
+* "I mean it was more difficult than I expected. It took some thinking as to what would constitute a good fabricated data set. But, yeah, I would say a 4 out of 7."
+
+<!-- fabrication framework -->
+* "what I of course could do is just look at my own old data. Just look at the means and standard deviations or maybe do even the calculations per subject. And just try to - I don't know - throw some noise over it or something."
+* "then I thought using a large data set and treat it as some kind of population and sample from that 25 subjects would be a better way to maybe avoid detection." [...] "I just googled 'stroop.csv'" [...] "the data set I found online. I mean I don't know if it is real."
+* "the first option would be easier, I guess. But yeah, I think the approach that I took now would be less easy to detect."
+* "repetition of data would constitute - would be evidence for fabrication. I think the best indicator for fabrication would be means or standard deviations that would not be similar to what has been found in earlier studies."
+* "What would you guys use to try to detect data fabrication?"
+* "I thought means and standard deviations, maybe even cross-correlations between those measures. So, those were actually the measures that I used to fabricate my data."
+* "similar to a standard Gaussian or another standard distribution. Whereas, of course, real data is not perfectly distributed. So, I think you would see in genuine data deviations from perfect distributions."
+
+<!-- fabrication specifics -->
+* "I first did is I went looking for a large data set on the Stroop task with a lot of subjects, more than 25. So, that took a while and then I found a sample Stroop data set with 121 subjects and I thought ok, that's enough"
+* "I then did is per subject calculate the means for the two different conditions and the standard deviations for the two different conditions - basically the format that you provided in your template - per subject. So, that left me with 121 means and standard deviations for two conditions"
+* "Then, I looked at the data characteristics."
+* "first I looked at the distribution of the data and like I said that looked pretty normal"
+* "I looked at the mean of the means, the standard deviation of the means, the mean of the standard deviations of the - standard deviations"
+* "I thought, well, what else could you guys use to detect fraud and then I thought, maybe there is something known in the Stroop task about the correlation between those measures"
+* "So, I also looked at the correlation between those four measures, right - mean and standard deviation from the two condition"
+* "I generated a new 121 sized data set with those characteristics."
+* "From that data set, I sampled randomly 25 subjects."
+* "It actually only took one try. "
+
+<!-- detection -->
+* "the distribution of the data I did not really take into account because in the sample data set that I found online on many subjects - all the measures looked pretty normally distributed."
+* "I just checked the histrograms. But it all looked pretty ok-ish."
+* "manually, I checked for crazy outliers [...] maybe, there were response times of below 100 milliseconds and that would of course be not possible"
+* "I made sure that my fabricated data set would show the same intercorrelation between all variables. The same mean and standard deviation of means and standard deviation and standard deviation of standard deviations."
+* "I compared the characteristics of my data - so, the mean of means and the standard deviation of means, mean of standard deviations, and standard deviation of standard deviations and all the cross-correlations between those measures - and I made sure that they were quite similar to in the real data set that I found."
 
 ## csQCA
 
