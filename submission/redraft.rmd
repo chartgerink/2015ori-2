@@ -154,25 +154,36 @@ Data are available at [osf.io/xxxxx](https://osf.io/xxxxx); analysis code is ava
 
 For each participant, we provide a qualitative summary of the interview with selected quotes. 
 These summaries can be read separately from each other and provide detailed descriptions of our participants' fabrication process. 
-Each summary is structured into five paragraphs: (1) how did the participant prepare for data fabrication, (2) how much time did the participant spend fabricating data, (3) what was the general framework with which the participant fabricated data, (4) what are the specifics to the data fabrication process, and (5) whether the participant checked the fabricated data for detectability.
+Each summary is structured into at least five paragraphs: (1) how did the participant prepare for data fabrication, (2) how much time did the participant spend fabricating data, (3) what was the general framework with which the participant fabricated data, (4) what are the specifics to the data fabrication process, and (5) whether the participant checked the fabricated data for detectability.
 Generally, these are descriptions of blocks 2-5 of the original interviews (see [Methods](#methods) for a summary of the blocks).
 In order to remain neutral to the gender of the participant, we address the participant with their pseudonymized ID and with the pronoun 'they'.
 We share these summaries here and not in an appendix because this paper focuses on a qualitative evaluation of the data fabrication strategies applied. 
 In Table xxxx we present an overview of the participant characteristics with hyperlinks to the raw transcript files [@10.5281/zenodo.832491] and to the summaries provided in this manuscript (only available in the HTML version of this manuscript). 
 
+```{r echo = FALSE}
+df <- data.frame(id, summary, phd, stroop, soft_know, stat_know, confidence)
+names(df) <- c('ID', 'Summary', 'PhD attained', 'Stroop experience', 'Software knowledge', 'Statistics knowledge [self-assessed, 1 (worst) - 10 (best)]', 'Confidence going undetected [self-assessed 1 (extremely insecure) - 10 (extremely confident)]')
+df <- rbind()
+```
+
 <!-- update this table with all characteristics not used in QCA? -->
 <!-- add density plots on data? -->
 
-| ID |  Summary | PhD attained | Stroop experience | Software knowledge | Statistics knowledge [self-assessed, 1 (worst) - 10 (best)] | 
-| -- | ----------- | ------------ | ----------------- | ------------------ | | -------------------- |
-| [0jg](https://zenodo.org/record/832491/files/0jg.md) | [Link](#participant-0jg) | No | No | [ matlab, R ] | 8 | 
-| [19e](https://zenodo.org/record/832491/files/19e.md) | [Link](#participant-19e) | No | No | [ r, python ] | 7 | 
-
+| ID |  Summary | PhD attained | Stroop experience | Software knowledge | Statistics knowledge [self-assessed, 1 (worst) - 10 (best)] | Confidence going undetected [self-assessed 1 (extremely insecure) - 10 (extremely confident)] | 
+| -- | ----------- | ------------ | ----------------- | ------------------ | | -------------------- | --------------------------------------------------------------- |
+| [0jg](https://zenodo.org/record/832491/files/0jg.md) | [Link](#participant-0jg) | No | No | [ matlab, r ] | 8 | 6 |
+| [19e](https://zenodo.org/record/832491/files/19e.md) | [Link](#participant-19e) | No | No | [ r, python ] | 7 | 5 |
+| [1se](https://zenodo.org/record/832491/files/1se.md) | [Link](#participant-1se) | Yes | Yes | [ spss, r ] | 7 |  8 |
+| [1zm](https://zenodo.org/record/832491/files/1zm.md) | [Link](#participant-1zm) | Yes | No | [ spss ] | 5 | 4 |
 
 <!-- https://zenodo.org/record/832491/files/ -->
 
 <!-- prep -->
+<!-- Prior to fabricating the data, Participant `xxx` -->
+
 <!-- fabrication time -->
+<!-- Participant `0jg` spent approximately two hours on fabricating the data, on two separate days. -->
+
 <!-- fabrication framework -->
 <!-- fabrication specifics -->
 <!-- detection -->
@@ -193,41 +204,72 @@ Upon fabricating the data, the participant checked for (1) too large effect size
 ### Participant `19e`
 
 <!-- prep -->
-"I guess I should have. That is a good idea. But I didn't, no."
-"I read a few meta-analyses on the Stroop effect. Hopefully, that gave me some insight. But no, I did not look at the literature on data fabrication itself."
+Prior to fabricating the data, Participant `19e` indicated to have not done any conscious preparation. "I guess I should have. That is a good idea. But I didn't, no. [...] I read a few meta-analyses on the Stroop effect. Hopefully, that gave me some insight. But no, I did not look at the literature on data fabrication itself." 
+
 <!-- fabrication time -->
-* one day
-* 3 hours
-* "I just put a block of - I think - four or six hours in my calender and just devoted it to this thing."
-* "I mean it was more difficult than I expected. It took some thinking as to what would constitute a good fabricated data set. But, yeah, I would say a 4 out of 7."
+Participant `19e` spent approximately three hours on fabricating the data, on a single day. "I just put a block of [...] four or six hours in my calender and just devoted it to this thing." Apparently, the participant took less time (three hours) than planned (four or six hours) and at the same time indicated "it was more difficult than I expected." When asked how much effort they spent on fabricating the data, they indicated "It took some thinking as to what would constitute a good fabricated data set" and that they rated their own effort as 4 out of 7. In other words, it seems like they found fabricating the data more difficult than expected and did not put in much effort, which might explain why the time spent is shorter than blocked in their schedule.
 
 <!-- fabrication framework -->
-* "what I of course could do is just look at my own old data. Just look at the means and standard deviations or maybe do even the calculations per subject. And just try to - I don't know - throw some noise over it or something."
-* "then I thought using a large data set and treat it as some kind of population and sample from that 25 subjects would be a better way to maybe avoid detection." [...] "I just googled 'stroop.csv'" [...] "the data set I found online. I mean I don't know if it is real."
-* "the first option would be easier, I guess. But yeah, I think the approach that I took now would be less easy to detect."
-* "repetition of data would constitute - would be evidence for fabrication. I think the best indicator for fabrication would be means or standard deviations that would not be similar to what has been found in earlier studies."
-* "What would you guys use to try to detect data fabrication?"
-* "I thought means and standard deviations, maybe even cross-correlations between those measures. So, those were actually the measures that I used to fabricate my data."
-* "similar to a standard Gaussian or another standard distribution. Whereas, of course, real data is not perfectly distributed. So, I think you would see in genuine data deviations from perfect distributions."
+In order to fabricate data and make them look genuine, `19e` set out to reuse a (supposedly) genuine data set. They indicated that they could "just look at [their] own old data [...] the means and standard deviations or maybe do even the calculations per subject [...] throw some noise over it or something." But they figured they could use "a large data set and treat it as some kind of population and sample from that [...] to maybe avoid detection." Reflecting upon the approach, "the first option [using own data] would be easier [to detect], I guess. [...] I think the approach that I took now [finding a large dataset as an artificial population to sample from] would be less easy to detect."
+
+Participant `19e` indicated several key points that would make data look more fabricated, including duplication and severe deviations in summary statistics. More specifically, they mentioned that "repetition of data [...] would be evidence for fabrication." They also indicated to realize the data should be in accordance with what was previously published; "I think the best indicator for fabrication would be means or standard deviations that would not be similar to what has been found in earlier studies." Beyond that, they considered "cross-correlations between [...] measures" and that "real data is not perfectly distributed."
 
 <!-- fabrication specifics -->
-* "I first did is I went looking for a large data set on the Stroop task with a lot of subjects, more than 25. So, that took a while and then I found a sample Stroop data set with 121 subjects and I thought ok, that's enough"
-* "I then did is per subject calculate the means for the two different conditions and the standard deviations for the two different conditions - basically the format that you provided in your template - per subject. So, that left me with 121 means and standard deviations for two conditions"
-* "Then, I looked at the data characteristics."
-* "first I looked at the distribution of the data and like I said that looked pretty normal"
-* "I looked at the mean of the means, the standard deviation of the means, the mean of the standard deviations of the - standard deviations"
-* "I thought, well, what else could you guys use to detect fraud and then I thought, maybe there is something known in the Stroop task about the correlation between those measures"
-* "So, I also looked at the correlation between those four measures, right - mean and standard deviation from the two condition"
-* "I generated a new 121 sized data set with those characteristics."
-* "From that data set, I sampled randomly 25 subjects."
-* "It actually only took one try. "
+After searching on the Web for `stroop.csv`, Participant `19e` found a large dataset to use as a population to sample from. They admitted they "don't know if it is real" and the dataset contained 121 subjects, which was considered sufficient. For each of those subjects, they computed the means and standard deviations for both the congruent and incongruent conditions across the individual trials. Subsequently, they looked at the distributions of the data ("that looked pretty normal"), the summary statistics of the mean and standard deviations, and the correlation between the means and standard deviations (although they did not specify how). Using these pieces of information, they "generated a new 121 sized data set with those characteristics." From that generated dataset, they sampled 25 subjects once. In other words, the process involved finding a genuine dataset, investigate several summary statistics and their summary statistics, simulate data using that information, and then sampling a subset of that simulated data.
 
 <!-- detection -->
-* "the distribution of the data I did not really take into account because in the sample data set that I found online on many subjects - all the measures looked pretty normally distributed."
-* "I just checked the histrograms. But it all looked pretty ok-ish."
-* "manually, I checked for crazy outliers [...] maybe, there were response times of below 100 milliseconds and that would of course be not possible"
-* "I made sure that my fabricated data set would show the same intercorrelation between all variables. The same mean and standard deviation of means and standard deviation and standard deviation of standard deviations."
-* "I compared the characteristics of my data - so, the mean of means and the standard deviation of means, mean of standard deviations, and standard deviation of standard deviations and all the cross-correlations between those measures - and I made sure that they were quite similar to in the real data set that I found."
+
+<!-- * "the distribution of the data I did not really take into account because in the sample data set that I found online on many subjects - all the measures looked pretty normally distributed." -->
+<!-- * "I just checked the histrograms. But it all looked pretty ok-ish." -->
+<!-- * "manually, I checked for crazy outliers [...] maybe, there were response times of below 100 milliseconds and that would of course be not possible" -->
+<!-- * "I made sure that my fabricated data set would show the same intercorrelation between all variables. The same mean and standard deviation of means and standard deviation and standard deviation of standard deviations." -->
+
+Upon fabricating the data, the participant checked for (1) odd histograms, (2) outliers, and (3) comparable correlations and summary statistics as the original dataset. They did not check the histograms systematically --- "it all looked pretty ok-ish." For outliers, they "checked for crazy outliers [...] maybe, there were response times of below 100 milliseconds and that would of course be not possible." Additionally, the participant indicated that
+> "I compared the characteristics of my data - so, the mean of means and the standard deviation of means, mean of standard deviations, and standard deviation of standard deviations and all the cross-correlations between those measures - and I made sure that they were quite similar to in the real data set that I found."
+
+### Participant `1se`
+
+<!-- prep -->
+Prior to fabricating the data, Participant `1se` read one of their own papers on the Stroop effect. "I read one of our own papers on the Stroop effect [...] I needed [...] the means and standard deviations to have a starting point [for fabricating data]." Additionally, they recruited one of their postdocs to help out with the data fabrication. "I didn't do this on my own. I recruited additional help [...] I don't think we discussed it more than twice in total." Participant `1se` was particular in the sense that they first actively rejected participation in the study. "I don't want to participate" they said; "my first gut instinct was: I am not going to fabricate data. That is really bad." After some back and forth about the goals and procedure of the study, they decided to participate after all. "I understand why it is necessary that we actually increase our ability to detect fabricated datasets that will be in the benefit - in the long-term benefit of science."
+
+<!-- fabrication time -->
+Participant `1se` spent approximately six hours on fabricating the data, across four separate days. They indicated that they did not spend much effort, estimating it at a 2 on a scale from 1 (minimal effort) through 7 (a lot of effort). This somewhat conflicts their verbal assessment of the data fabrication process; "it is not difficult to fabricate data, unfortunately. But it is difficult probably to fabricate data that look like real data." This could either be taken as that they did not try to fabricate data that looked real, that their recollection minimizes effort, or a variety of other factors. The first seems implausible, because the participant indicated that "if this [fabricating undetectable data] is the mission [...] we gonna [sic] beat them."
+
+<!-- fabrication framework -->
+Participant `1se` indicated that data look more fabricated when they fullfill three criteria: (1) too perfectly distributed, (2) implausible absolute values, and (3) no outliers. More literally, they said data look fabricated when "they clearly come from a normal distribution" and "they are devoid of clear outliers". For plausibility of absolute values, an example was given: "If the response latency would be 6 seconds, that would be very silly because the response latency is known to be - I don't know from the top of my head - but 4-500 milliseconds for a congruent trial and [?] some 2-300 milliseconds longer."  These three criteria served as the basis for fabricating genuine-looking data. Criteria one and three seem somewhat contradictory, because Participant `1se` indicated that they wanted to fabricate a datset that was "at least semi-normal but not perfectly normal." However, in a perfectly normal distribution there are by definition outliers, whereas in a semi-normal distribution there could be situations that there are fewer or no outliers.
+
+<!-- fabrication specifics -->
+To actually fabricate the data, `1se` simulated data and manually introduced outliers. In order to fabricate real looking data, their "starting points always were realistic value for the Stroop effect." For example, they took "into account the fact that the absolute latency has a relationship with the standard deviation" in order to align the fabricated data with genuine data, drawing from their experience. More specifically, they used the multivariate normal function in R to generate this random data. The starting points for the simulation were "means from one of [their] own studies but [they] squared them to get skew". In order to make the data less perfect (i.e., more weird) they deliberately introduced outliers and deleted things at random. To fabricate the within-person standard deviations, they used a non-central $\chi^2$ distribution, where the mean of the standard deviation was set to ~30% of the mean itself. After rounding all the fabricated values to milliseconds, they copied the values to the template. "But, in all honesty, it was really done by hand and also not written down. So, this was haphazard. I couldn't reproduce it the next time. "
+
+<!-- detection -->
+Participant `1se` was confident in the algorithm used to produce the data and did not check for any signs of data fabrication in the resulting data. One of the reasons indicated pertained to time and mental constraints; "We could have done a better job by looking into realistic standard deviations within subjects but we had no time to do that [...] we were just too lazy to do that." They did eye-ball an unspecified set of plots for obvious signs of data fabrication, but included no formal and systematic checks. As a result, there was only one iteration in fabricating data. `1se` indicated they "wanted to beat the system but not spend too much time."
+
+### Participant `1zm`
+
+<!-- prep -->
+Prior to fabricating the data, Participant `1zm` indicated to not have taken any concrete steps to prepare. They indicated to "have a very broad idea of how other cases were detected" but no specific insights beyond those available in general audience articles. An explicit mention was made of [an article in The Guardian](http://web.archive.org/web/20180501202718/https://www.theguardian.com/science/2017/feb/01/high-tech-war-on-science), which covered the work by us within which this experiment took place.
+
+<!-- fabrication time -->
+Participant `1zm` spent two hours on fabricating the data, across three to four separate days. They indicated to have spent a medium amount of effort (4 on a 1-7 scale), where later in the interview there appeared a conflict in spending more effort, indicating that "that it [fabricating data] is quite hard and it also feels that with some motivation you can do it better, but then it also feels like it is like it is quite laborious to generate it. So I think that if it becomes so laborious to just try and generate youre data, it is probably even just easier to collect real data instead of generating false data".
+
+<!-- fabrication framework -->
+In order to make data look less fabricated, `1zm` indicated too have spent attention on effect sizes, correlations, distributions, and acceptable reaction times. 
+With respect to effect sizes, they ensured "that they are not too big or too small to be genuine or to be real."
+They "also made sure that people with higher reaction times have somewhat larger effects."
+With respect to correlations, "mean reaction times should correlate, standard deviations shouldn't correlate or shouldn't correlate highly." 
+This was done mostly on self-reported hunches about how these correlations would look like in genuine data.
+With respect to distributions, they considered drawing values from a distribution as implausible and too perfect, because genuine data would be messy and skewed. 
+No specifications were made as to what were considered acceptable reaction times.
+
+<!-- fabrication specifics -->
+Participant `1zm` started fabricating right away and iterated towards an acceptable data set. Initially, they looked up what average reaction times are in a Stroop task to get a reasonable starting point to fabricate data; "that is around 5[00]-600 milliseconds and I used this to generate the reaction times [...] I thought that the standard deviations would [?] be around 100-120 milliseconds." In order to fabricate the data for the incongruent Stroop condition, they copied the reaction times previously fabricated and added "few tens of milliseconds." Note: generating here meant making up the numbers, not using a random number generator. The participant explicitly noted that "sometimes I also made sure that people didn't show the effect." In order to ensure lack of large correlations between the standard deviations, they reverse copied the standard deviations across conditions (i.e., the last 12 SDs of the congruent condition were pasted as the first 12 of the incronguent condition) in order to prevent biased data generation ("I might be biased if I had to generate it myself"). These various steps did not follow each other immediately, but were part of the iterating process of fabricating the data, where "after a while I came back to it to adjust some things." In total, `1zm` indicated to have "generated it [data] once, but then I adjusted it like 5 times."
+
+<!-- detection -->
+In this iterating process, `1zm` checked for too large effect sizes, correlations, and self-identified biases in fabricating the data.
+For the effect sizes, they decided that "a t-value around 2 and a half to 3 or something would be acceptable for this sample size" and that this would be the demarcation for effective data fabrication. Admittably, they indicated this was arbitrary and based "just on my impression what would be acceptable."
+They compared correlations between the summary statistics and "made sure that there wasn't like a large correlations for instance between the standard deviations." If that was the case, they "adjusted the data a bit to decrease the correlation." All in all, they assessed the data fabrication process as "surprisingly more difficult than I anticipated." Notably, they self-reflected on their ability to fabricate data that could pass as genuine: 
+>"I noticed that I have some biases myself or that I don't know exactly how real data is supposed to look like [...] I noticed that I just didn't have enough background or information or knowledge about how real data structure looks like to be sure that it looks like a real one. So then, yeah, once I generated it, I always started to worry about how it should exactly look like."
+As a result, they weren't able to assess how confident they were in these fabricated data going undetected, where "they are quite genuine but I also have the impression that there might be some easy things in there to catch that it is actually not real data."
 
 ## csQCA
 
