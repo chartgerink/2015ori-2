@@ -175,6 +175,7 @@ df <- rbind()
 | [19e](https://zenodo.org/record/832491/files/19e.md) | [Link](#participant-19e) | No | No | [ r, python ] | 7 | 5 |
 | [1se](https://zenodo.org/record/832491/files/1se.md) | [Link](#participant-1se) | Yes | Yes | [ spss, r ] | 7 |  8 |
 | [1zm](https://zenodo.org/record/832491/files/1zm.md) | [Link](#participant-1zm) | Yes | No | [ spss ] | 5 | 4 |
+| [2a9](https://zenodo.org/record/832491/files/2a9.md) | [Link](#participant-2a9) | No | No | [ r, jasp ] | 5 | 4 |
 
 <!-- https://zenodo.org/record/832491/files/ -->
 
@@ -270,6 +271,42 @@ For the effect sizes, they decided that "a t-value around 2 and a half to 3 or s
 They compared correlations between the summary statistics and "made sure that there wasn't like a large correlations for instance between the standard deviations." If that was the case, they "adjusted the data a bit to decrease the correlation." All in all, they assessed the data fabrication process as "surprisingly more difficult than I anticipated." Notably, they self-reflected on their ability to fabricate data that could pass as genuine: 
 >"I noticed that I have some biases myself or that I don't know exactly how real data is supposed to look like [...] I noticed that I just didn't have enough background or information or knowledge about how real data structure looks like to be sure that it looks like a real one. So then, yeah, once I generated it, I always started to worry about how it should exactly look like."
 As a result, they weren't able to assess how confident they were in these fabricated data going undetected, where "they are quite genuine but I also have the impression that there might be some easy things in there to catch that it is actually not real data."
+
+### Participant `2a9`
+
+<!-- prep -->
+Participant `2a9` did not prepare in order to fabricate more genuine looking data. Their motivation was twofold: (1) time investment, and (2) to simulate how 'real' fabricators might operate. The reasoning was that "partly because I think many people who fake this data - they are also not 100% sure of this methods." As such, they "didn't look at real data to figure out what the distribution of numbers is for example, or to figure out from a bottom up approach what makes real data look real".
+
+<!-- fabrication time -->
+Participant `2a9` spent approximately two hours on fabricating the data, on  a single day. They invested relatively little effort, self-reporting a 2 out of 7. One of the comments seemed especially interesting relating why relatively little effort was spent: "thanks to Open Science I had a lot of real data that I could sample from." Because of the availability of real data, the participant indicated they forewent fabricating data from scratch. Instead, they sampled from the genuine data such that the fabricated data resembled these more closely in the underlying structures. 
+
+<!-- fabrication framework -->
+"I know from the tax evasion literature Benford's law"
+"I wasn't sure if that would really apply to response times data in the Stroop task"
+"if we talk about data in general - and not only response time data in the Stroop task - if we look at Benford's law, the distribution of numbers - I know that in one paper, I think, the issue was - where they detected that it was fake data was that the variance in the reported standard deviations, I think, was - that it was enough variance in the reported standard deviations, whereas there was a lot of variance in the reported means."
+"if you look at what power the design had relative to the effect size that they have, so in that sense data that looks p-hacked or too good to be true, that makes me think that the data is fake or was botched"
+more genuine
+"I guess the noisier it is."
+"If I can detect patterns in the data - [?] the numbers are the same in condition one and two - this might be a really obvious example of fake data - but condition one and two have exactly the same data points, only in condition two four or five are changed to way higher numbers that conform with the hypothesis, that obviously looks fake"
+"the noisier the data is the more I would trust it. But that is only for this dumb-detection of 'hey, this is exactly the same data only some things are changed'."
+"my reasoning was that there might be a lot of these characteristics that real data has and fake data doesn't have, but if I take data that is real, already, I should be fine because it is real data"
+
+<!-- fabrication specifics -->
+"Many labs project, take a random subsample, add noise on it.
+""I thought about these things, but since I didn't make data from scratch I didn't have to look at certain characteristics of what real data looks like and then try to recreate that in data from scratch. But because I didn't fake the data from scratch, I didn't use that."
+"I identified real data, downloaded it, and then added noise to that real data to make it look less or not like that original data set anymore."
+"I drew random numbers from a normal distribution with a mean of zero and added those numbers to the real data. I - the distribution for the mean had - I specified a standard deviation of 10 whereas for the standard deviation I specified a standard deviation of 8."
+" remembered that in the many labs project they replicated the Stroop task. I googled that, found the many labs free data set where,"
+"I took a random sample of 25 subjects and I created - and also saved for each of these 50 means a random number drawn from a distribution with a mean of 0 and a standard deviation of 10, added that on top of it, and that was the last step. That was the fake data, then."
+wrt sds "put noise over it sampled from a random distribution with a mean of 0 and a standard deviation of 8."
+
+<!-- detection -->
+"I looked at the mean response times for each participant and the standard deviation in response times for each participant. I looked at the standard deviation within these distributions to check if there was more variation in the mean response times compared to the standard deviation of the mean response times. I am not sure if there - a certain relationship should be expected if it is real versus if it is fake but I wanted to make sure that there is enough variation in both."
+"one thing I did look at and that is also in the code is to, I think, extract the last digit that I had, which was, I think, the fourth decimal place and look at the distribution of numbers because I would expect that it is pretty random."
+only one iteration
+"I looked at some distributions, but not many and even I did not have strong expectations of what it should look like so I looked at it and said, yeah, ok."
+"I don't know what tools are out there at all. My intuition says it is going to be hard to detect because it originates from real data but I don't want to be too confident."
+
 
 ## csQCA
 
